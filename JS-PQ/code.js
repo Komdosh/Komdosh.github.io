@@ -49,7 +49,7 @@ var marketAgents = function(nameInp, priceInp, materialCostInp, marketNeedInp, n
 //**********************************************************************************
 //Main constants
 var P = 0, Q = 1, PQ = 2;
-var marketNeedP = 105;
+var marketNeedP = 100;
 var marketNeedQ = 50;
 var workDays = 5;
 var workHours = 8;
