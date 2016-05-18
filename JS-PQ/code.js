@@ -47,9 +47,9 @@ var marketAgents = function(nameInp, priceInp, materialCostInp, marketNeedInp, n
 }
 
 //**********************************************************************************
-//Main constant
+//Main constants
 var P = 0, Q = 1, PQ = 2;
-var marketNeedP = 100;
+var marketNeedP = 105;
 var marketNeedQ = 50;
 var workDays = 5;
 var workHours = 8;
@@ -67,7 +67,7 @@ var constraint;
 var maxEffective;
 var interfaceDiv;
 var mainDiv;
-
+//***********************************************************************************
 //main func like C programm xD
 function main(){
 	document.body.innerHTML="";
@@ -119,7 +119,6 @@ function count(){
 
     maxEffective = (mA[0].thPerMinute > mA[1].thPerMinute)?mA[0]:mA[1];
     minEffective = (maxEffective == mA[1])?mA[0]:mA[1];
-
     var tempTimeOfConstraint = workTimeInMinutes;
     var profit;
     if((maxEffective.marketNeed*constraint.timeForMake[maxEffective.numberOfProduct]+
@@ -331,7 +330,10 @@ function interface(){
 			mA[i].materialCost[j] = parseInt(document.getElementById(j+"materialCost"+i).value);
 		}
 		mA[i].marketNeed = parseInt(document.getElementById("marketNeed"+i).value);
-	}
 
+	}
+    
+    marketNeedP = parseInt(document.getElementById("marketNeed0").value);
+	marketNeedQ = parseInt(document.getElementById("marketNeed1").value);
 	main();
 }
