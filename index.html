@@ -45,6 +45,12 @@
 
 	<link rel="stylesheet" href="css/turquoise.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.min.css">
+
+	<style>
+		.hide-view { display:none !important; }
+	</style>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -65,12 +71,14 @@
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-		            <li><a href="#" data-nav-section="about"><span>Person</span></a></li>
-		            <li><a href="#" data-nav-section="education"><span>Education</span></a></li>
-		            <li><a href="#" data-nav-section="services"><span>Programming</span></a></li>
-		            <li><a href="#" data-nav-section="skills"><span>Skills</span></a></li>
-		            <li><a href="#" data-nav-section="experience"><span>Experience</span></a></li>
+		            <li class="active"><a href="#" data-nav-section="home"><span class="en-lang">Home</span><span class="ru-lang">Домой</span></a></li>
+		            <li><a href="#" data-nav-section="about"><span class="en-lang">Person</span><span class="ru-lang">Обо мне</span></a></li>
+		            <li><a href="#" data-nav-section="education"><span class="en-lang">Education</span><span class="ru-lang">Образование</span></a></li>
+		            <li><a href="#" data-nav-section="services"><span class="en-lang">Programming</span><span class="ru-lang">Программирование</span></a></li>
+		            <li><a href="#" data-nav-section="skills"><span class="en-lang">Skills</span><span class="ru-lang">Навыки</span></a></li>
+		            <li><a href="#" data-nav-section="experience"><span class="en-lang">Experience</span><span class="ru-lang">Опыт</span></a></li>
+		            <li><a style="cursor: pointer" id="ru-lang" ><i class="flag-icon flag-icon-ru"></i></a></li>
+		            <li><a style="cursor: pointer" id="en-lang" class="hide-view"><i class="flag-icon flag-icon-gb"></i></a></li>
 		          </ul>
 		        </div>
 			    </nav>
@@ -86,9 +94,12 @@
 					    <div class="col-md-7 col-sm-7">
 			    			<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">SlaSol &mdash; Android game app</h1>
-									<h2 class="fh5co-sub-lead to-animate">Try to think in colors</h2>
-									<h3 class="fh5co-sub-lead to-animate">Role: Developer</h3>
+						    		<h1 class="fh5co-lead to-animate en-lang">SlaSol &mdash; Android game app</h1>
+						    		<h1 class="fh5co-lead to-animate ru-lang">SlaSol &mdash; Android приложение</h1>
+									<h2 class="fh5co-sub-lead to-animate en-lang">Try to think in colors</h2>
+									<h2 class="fh5co-sub-lead to-animate ru-lang">Попробуйте мыслить цветами</h2>
+									<h3 class="fh5co-sub-lead to-animate en-lang">Role: Developer</h3>
+									<h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Разработчик</h3>
 									<p class="to-animate-2"><a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol" class="btn btn-primary btn-lg">Google Play</a></p>
 						    	</div>
 						    </div>
@@ -105,14 +116,38 @@
 					    <div class="col-md-7 col-sm-7">
 			    			<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">Travellante &mdash; Android app</h1>
-									<h2 class="fh5co-sub-lead to-animate">Social app</h2>
-									<h3 class="fh5co-sub-lead to-animate">Role: Android Developer</h3>
+						    		<h1 class="fh5co-lead to-animate en-lang">Travellante &mdash; Android app</h1>
+						    		<h1 class="fh5co-lead to-animate ru-lang">Travellante &mdash; Android приложение</h1>
+									<h2 class="fh5co-sub-lead to-animate en-lang">Social app</h2>
+									<h2 class="fh5co-sub-lead to-animate ru-lang">Социальное приложение</h2>
+									<h3 class="fh5co-sub-lead to-animate en-lang">Role: Android Developer</h3>
+									<h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Android разработчик</h3>
 						    	</div>
 						    </div>
 					    </div>
 					    <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 android-image">
 					    	<div class="android to-animate-2"><img src="images/travellante.png" alt=""></div>
+					    </div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="item" style="background: #9E9D24;">
+		    	<div class="container" style="position: relative;">
+		    		<div class="row">
+					    <div class="col-md-7 col-sm-7">
+			    			<div class="fh5co-owl-text-wrap">
+						    	<div class="fh5co-owl-text">
+						    		<h1 class="fh5co-lead to-animate en-lang">Eltechat &mdash; Android app</h1>
+						    		<h1 class="fh5co-lead to-animate ru-lang">Eltechat &mdash; Android приложение</h1>
+									<h2 class="fh5co-sub-lead to-animate en-lang">Group chat for Saint-Petersburg Electrotechnical University</h2>
+									<h2 class="fh5co-sub-lead to-animate ru-lang">Групповой чат для Санкт-Петербургского Государственного электротехнического университета "ЛЭТИ"</h2>
+									<h3 class="fh5co-sub-lead to-animate en-lang">Role: Android Developer</h3>
+									<h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Android разработчик</h3>
+						    	</div>
+						    </div>
+					    </div>
+					    <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 android-image">
+					    	<div class="android to-animate-2"><img src="images/eltechat.png" alt=""></div>
 					    </div>
 		    		</div>
 		    	</div>
@@ -123,9 +158,12 @@
 		    			<div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
 			    			<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">Database on C</h1>
-									<h2 class="fh5co-sub-lead to-animate">My first real project</h3>
-									<h3 class="fh5co-sub-lead to-animate">Role: Developer</h3>
+						    		<h1 class="fh5co-lead to-animate en-lang">Database on C</h1>
+						    		<h1 class="fh5co-lead to-animate ru-lang">Электронная картотека на C</h1>
+									<h2 class="fh5co-sub-lead to-animate en-lang">My first real project</h3>
+									<h2 class="fh5co-sub-lead to-animate ru-lang">Первый программный проект</h3>
+									<h3 class="fh5co-sub-lead to-animate en-lang">Role: Developer</h3>
+									<h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Разработчик</h3>
 									<p class="to-animate-2"><a href="https://github.com/Komdosh/ELTECHCourseWork/tree/master/2.%20%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/source" class="btn btn-primary btn-lg">Github</a></p>
 						    	</div>
 						    </div>
@@ -142,9 +180,12 @@
 		    			<div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
 			    			<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">Long Arithmetic on C</h1>
-									<h2 class="fh5co-sub-lead to-animate">Team project of students</h3>
-									<h3 class="fh5co-sub-lead to-animate">Role: Developer</h3>
+						    		<h1 class="fh5co-lead to-animate en-lang">Long Arithmetic on C</h1>
+						    		<h1 class="fh5co-lead to-animate ru-lang">Длинная арифметика на C</h1>
+									<h2 class="fh5co-sub-lead to-animate en-lang">Team project of students</h3>
+									<h2 class="fh5co-sub-lead to-animate ru-lang">Студенческий командный проект</h3>
+									<h3 class="fh5co-sub-lead to-animate en-lang">Role: Developer</h3>
+									<h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Разработчик</h3>
 									<p class="to-animate-2"><a href="https://github.com/Komdosh/DM43" class="btn btn-primary btn-lg">Github</a></p>
 						    	</div>
 						    </div>
@@ -163,8 +204,10 @@
 		    			<div class="col-md-8 col-md-offset-2 text-center">
 		    				<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-		    						<h1 class="fh5co-lead to-animate">Github repositories!</h1>
-									<h2 class="fh5co-sub-lead to-animate">Checkout other interesting code</h3>
+		    						<h1 class="fh5co-lead to-animate en-lang">Github repositories!</h1>
+		    						<h1 class="fh5co-lead to-animate ru-lang">Github репозитории!</h1>
+									<h2 class="fh5co-sub-lead to-animate en-lang">Checkout other interesting code</h3>
+									<h2 class="fh5co-sub-lead to-animate ru-lang">Прочие проекты</h3>
 									<p class="to-animate-2"><a href="https://github.com/Komdosh?tab=repositories" target="_blank" class="btn btn-primary btn-lg">Github</a></p>
 								</div>
 							</div>
@@ -180,15 +223,21 @@
 		<div class="container">
 			<div class="row" id="team">
 				<div class="col-md-12 section-heading text-center to-animate">
-					<h2>Personal Info</h2>
+					<h2 class="en-lang">Personal Info</h2>
+					<h2 class="ru-lang">Персональная информация</h2>
 				</div>
 				<div class="col-md-12">
 						<div class="col-md-12 text-center to-animate">
 							<div class="person">
 								<img src="images/face.png" class="img-responsive img-rounded" alt="Person">
-								<h3 class="name">Tabakov Andrey</h3>
-								<div class="position">Developer</div>
-								<p>Born May 12, 1996 in Saint-Petersburg, Russia<br />My interests is programming, studying, self-development, guitar playing, walking</p>
+								<h3 class="name en-lang">Tabakov Andrey</h3>
+								<h3 class="name ru-lang">Табаков Андрей Викторович</h3>
+								<div class="position en-lang">Developer</div>
+								<div class="position ru-lang">Разработчик</div>
+								<p class="en-lang">Born May 12, 1996 in Saint-Petersburg, Russia<br />
+								My interests is programming, studying, self-development, guitar playing, walking</p>
+								<p class="ru-lang">Родился 12 мая 1996 года в Санкт-Петербурге.<br />
+								Мои интересы: Программирование, обучение, личное развитие, игра на гитаре и прогулки на свежем воздухе</p>
 								<ul class="social social-circle">
 									<li><a href="https://vk.com/komdosh"><i class="icon-vk"></i></a></li>
 									<li><a href="https://www.facebook.com/komdosh"><i class="icon-facebook"></i></a></li>
@@ -208,7 +257,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Education</h2>
+					<h2 class="to-animate en-lang">Education</h2>
+					<h2 class="to-animate ru-lang">Образование</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -216,15 +266,23 @@
 					<div class="box-testimony to-animate">
 						<blockquote>
 							<span class="quote"><span><i class="fa fa-graduation-cap"></i></span></span>
-							<ul>
+							<ul class="en-lang">
 								<li>Faculty of Computer Science and Technology</li>
 								<li>Department of Computer Science and Engineering</li>
 								<li>Course: 3</li>
 								<li>Group: 4306</li>
 							</ul>
-							<p><a href="http://eltech.ru" class="btn btn-primary btn-sm" style="color:white">Web site</a></p>
+							<ul class="ru-lang">
+								<li>Факультет компьютерных технологий и информатики</li>
+								<li>Кафедра вычислительной техники</li>
+								<li>Курс: 3</li>
+								<li>Группа: 4306</li>
+							</ul>
+							<p><a href="http://eltech.ru" class="btn btn-primary btn-sm en-lang" style="color:white">Web site</a></p>
+							<p><a href="http://eltech.ru" class="btn btn-primary btn-sm ru-lang" style="color:white">Сайт</a></p>
 						</blockquote>
-						<p class="author">Saint-Petersburg Electrotechnical University "LETI"<br/>Bachelor Degree</p>
+						<p class="author en-lang">Saint-Petersburg Electrotechnical University "LETI"<br/>Bachelor Degree</p>
+						<p class="author ru-lang">Санкт-Петербургский Государственный<br/>Электротехнический Университет "ЛЭТИ"<br/>Бакалавр</p>
 					</div>
 				</div>
 			</div>
@@ -235,44 +293,57 @@
 		<div class="container">
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Programming languages</h2>
+					<h2 class="to-animate en-lang">Programming languages</h2>
+					<h2 class="to-animate ru-lang">Языки программирования</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="box to-animate">
 						<div class="icon colored-1"><span style="color:white; font-size: 24pt;">Java</span></div>
-						<h3>Since 2014<br />Harder since April 2016</h3>
-						<p>Main language for now. I deal with it in my work and write some apps for Android</p>
+						<h3 class="en-lang">Since 2014<br />Harder since April 2016</h3>
+						<h3 class="ru-lang">C 2014<br />Усерднее с апреля 2016</h3>
+						<p class="en-lang">Main language for now. I deal with it in my work and write some apps for Android</p>
+						<p class="ru-lang">Пишу на нём на работе, а также пишу приложения под Android</p>
 					</div>
 					<div class="box to-animate">
 						<div class="icon colored-2"><span style="color:white; font-size: 24pt;">C++</span></div>
-						<h3>Since September 2015</h3>
-						<p>I write on this language about one year for studying, I really like this language</p>
+						<h3 class="en-lang">Since September 2015</h3>
+						<h3 class="ru-lang">С сентября 2015</h3>
+						<p class="en-lang">I write on this language about one year for studying, I really like this language</p>
+						<p class="ru-lang">Использовался больше для учёбы, но в целом понравился больше всего</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="box to-animate">
 						<div class="icon colored-3"><span style="color:white; font-size: 24pt;">C</span></div>
-						<h3>Since September 2014</h3>
-						<p>Began to learning this language with my University courses. I wrote a project similar with database and control system on it</p>
+						<h3 class="en-lang">Since September 2014</h3>
+						<h3 class="ru-lang">С сентября 2014</h3>
+						<p class="en-lang">Began to learning this language with my University courses. I wrote a project similar with database and control system on it</p>
+						<p class="ru-lang">С него началось моё обучение в ВУЗе, довольно не плохо его освоил</p>
 					</div>
 					<div class="box to-animate">
 						<div class="icon colored-4"><span style="color:white; font-size: 24pt;">JS</span></div>
-						<h3>Since 2009<br />Harder since June 2016</h3>
-						<p>The one of my first programming languges. Start with writing sites, now I deal with it in my work</p>
+						<h3 class="en-lang">Since 2009<br />Harder since June 2016</h3>
+						<h3 class="ru-lang">С 2009<br />Усерднее с июня 2016</h3>
+						<p class="en-lang">The one of my first programming languges. Start with writing simple scripts for sites, now I deal with it in my work</p>
+						<p class="ru-lang">Один из первых языков, которые я освоил. Начал с написания простых скриптов для своих сайтов. Сейчас имею с ним дело на работе</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="box to-animate">
 						<div class="icon colored-5"><span style="color:white; font-size: 18pt;">Phyton</span></div>
-						<h3>Since February 2016</h3>
-						<p>Want to learn something unusal language. Now I could write a simple programms on it</p>
+						<h3 class="en-lang">Since February 2016</h3>
+						<h3 class="ru-lang">С февраля 2016</h3>
+						<p class="en-lang">Want to learn something unusal language. Now I could write a simple programms on it</p>
+						<p class="ru-lang">Хотелось научиться языку, который не похож на C</p>
 					</div>
 					<div class="box to-animate">
 						<div class="icon colored-6"><span style="color:white; font-size: 24pt;">PHP</span></div>
-						<h3>Since 2009</h3>
-						<p>Wrote some web-sites on this language</p>
+						<h3 class="en-lang">Since 2009</h3>
+						<h3 class="ru-lang">С 2009</h3>
+						<p class="en-lang">Wrote some web-sites on this language</p>
+						<p class="ru-lang">Написал на нём штук десять разнообразных сайтов</p>
 					</div>
 				</div>
 			</div>
@@ -283,7 +354,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="single-animate animate-features-1">Skills</h2>
+					<h2 class="single-animate animate-features-1 en-lang">Skills</h2>
+					<h2 class="single-animate animate-features-1 ru-lang">Навыки</h2>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-sm">
@@ -291,18 +363,26 @@
 					<div class="fh5co-icon"></div>
 					<div class="fh5co-desc">
 						<h3>Android</h3>
-						<p>Develop my own app SlaSol: 
+						<p class="en-lang">Develop my own app SlaSol: 
 							<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol" class="btn btn-primary btn-sm">Google Play</a>
 						</p>
-						<p>Participate in development of new social app Travellante</p>
-						<p>Also write small apps just for fun</p>
+						<p class="ru-lang">Разработал собственное приложение SlaSol:<br />
+							<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol" class="btn btn-primary btn-sm">Google Play</a>
+						</p>
+						<p class="en-lang">Participate in development of new social app Travellante</p>
+						<p class="ru-lang">Участвую в разработке нового социального приложения Travellante</p>
+						<p class="en-lang">Write group chat for Saint-Petersburg Electrotechnical University</p>
+						<p class="ru-lang">Пишу групповой чат для СПБГЭТУ "ЛЭТИ"</p>
+						<p class="en-lang">Also write small apps just for fun</p>
+						<p class="ru-lang">Также пишу небольшие приложения просто ради развлечения</p>
 					</div>	
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
 					<div class="fh5co-icon"></div>
 					<div class="fh5co-desc">
 						<h3>SQL</h3>
-						<p>Working with PostgreSQL, MySQL</p>
+						<p class="en-lang">Working with PostgreSQL, MySQL, SQLite</p>
+						<p class="ru-lang">Работаю PostgreSQL, MySQL, SQLite</p>
 					</div>
 				</div>
 				<div class="clearfix visible-sm-block visible-xs-block"></div>
@@ -310,14 +390,16 @@
 					<div class="fh5co-icon"></div>
 					<div class="fh5co-desc">
 						<h3>Spring</h3>
-						<p>Java Spring Framework. Deal with it at work. Also know additional stuff like Spring Security and others</p>
+						<p class="en-lang">Java Spring Framework. Deal with it at work. Also know additional stuff like Spring Security and others</p>
+						<p class="ru-lang">Java Spring Framework. Имею с ним дело на работе</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
 					<div class="fh5co-icon"></div>
 					<div class="fh5co-desc">
 						<h3>REST</h3>
-						<p>Wrote some REST based servers</p>
+						<p class="en-lang">Wrote some REST based servers</p>
+						<p class="ru-lang">Написал несколько серверов с использованием REST</p>
 					</div>	
 				</div>
 				<div class="clearfix visible-sm-block visible-xs-block"></div>
@@ -325,35 +407,42 @@
 					<div class="fh5co-icon"></div>
 					<div class="fh5co-desc">
 						<h3>HTML+CSS</h3>
-						<p>As you can see this site is a result of my skill</p>
+						<p class="en-lang">As you can see this site is a result of my skill</p>
+						<p class="ru-lang">Данный сайт должен всё рассказать об этом навыке</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
 					<div class="fh5co-icon"></i></div>
 					<div class="fh5co-desc">
 						<h3>Git</h3>
-						<p>As you can see this site on Github, so I know what is checkout, clone, pull, push and so on</p>
+						<p class="en-lang">As you can see this site on Github, so I know what is checkout, clone, pull, push and so on</p>
+						<p class="ru-lang">Как вы могли заметить, этот сайт размещён на Github, так что я знаю что такое checkout, clone, pull, push и т.д.</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
 					<div class="fh5co-icon"></i></div>
 					<div class="fh5co-desc">
 						<h3>IDE</h3>
-						<p>Use Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion and know many others</p>
+						<p class="en-lang">Use Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion and know many others</p>
+						<p class="ru-lang">Использую Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion и также пользовался многими другими</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
 					<div class="fh5co-icon"></i></div>
 					<div class="fh5co-desc">
-						<h3>Operating Systems</h3>
-						<p>Use Ubuntu Linux<br />Worked with Windows a lot</p>
+						<h3 class="en-lang">Operating Systems</h3>
+						<h3 class="ru-lang">Операционные системы</h3>
+						<p class="en-lang">Use Ubuntu Linux, sometimes use another dists like Gentoo, Kali, Debian and so on<br />Worked with Windows a lot</p>
+						<p class="ru-lang">Использую Ubuntu Linux, пользовался и другими дистрибутивами такими как Gentoo, Kali, Debian<br />Очень долго пользовался Windows</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
 					<div class="fh5co-icon"></i></div>
 					<div class="fh5co-desc">
-						<h3>Other stuff</h3>
-						<p>Worked with: Jenkins, Sonar qube, Jetty, Tomcat, Assembler, a little with C#, Scrum</p>
+						<h3 class="en-lang">Other stuff</h3>
+						<h3 class="ru-lang">Прочие</h3>
+						<p class="en-lang">Worked with: Jenkins, Sonar qube, Jetty, Tomcat, Assembler, a little with C#, Scrum</p>
+						<p class="ru-lang">Работал с: Jenkins, Sonar qube, Jetty, Tomcat, Assembler, немного с C#, Scrum</p>
 					</div>
 				</div>
 				<div class="clearfix visible-sm-block visible-xs-block"></div>
@@ -365,7 +454,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="single-animate animate-press-1">Experience</h2>
+					<h2 class="single-animate animate-press-1 en-lang">Experience</h2>
+					<h2 class="single-animate animate-press-1 ru-lang">Опыт</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -375,20 +465,29 @@
 						<div class="fh5co-press-text">
 							<h3 class="h2 fh5co-press-title">Siemens<span class="fh5co-border"></span></h3>
 							<ul>
-								<li style="white-space: nowrap">Position: Intern-Developer</li>
-								<li style="white-space: nowrap">Since: August 2016</li>
-								<li style="white-space: nowrap">Until: Now</li>
+								<li style="white-space: nowrap" class="en-lang">Position: Intern-Developer</li>
+								<li style="white-space: nowrap" class="en-lang">Since: August 2016</li>
+								<li style="white-space: nowrap" class="en-lang">Until: Now</li>
 							</ul>
-							<p>Responsibility: 
-							<ul>
+							<p class="en-lang">Responsibility: 
+							<p class="ru-lang">Обязанности: 
+							<ul class="en-lang">
 								<li>Research techonolgies, methods of implementation and so on</li>
 								<li>Java, Javascript, Python</li>
 								<li>Application architecture</li>
 								<li>Database architecture</li>
 								<li>DevOps</li>
 							</ul>
+							<ul class="ru-lang">
+								<li>Исследование технологий, методов разработки и т.д.</li>
+								<li>Java, Javascript, Python</li>
+								<li>Архитектура приложений</li>
+								<li>Архитектура баз данных</li>
+								<li>DevOps</li>
+							</ul>
 							</p>
-							<p><a href="https://www.siemens.com" class="btn btn-primary btn-sm">Web site</a></p>
+							<p><a href="https://www.siemens.com" class="btn btn-primary btn-sm en-lang">Web site</a></p>
+							<p><a href="https://www.siemens.com" class="btn btn-primary btn-sm ru-lang">Сайт</a></p>
 						</div>
 					</div>
 					<!-- Item -->
@@ -435,6 +534,7 @@
 	<!-- Owl Carousel -->
 	<script src="js/owl.carousel.min.js"></script>
 
+
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
@@ -464,6 +564,24 @@
 		    d.addEventListener("DOMContentLoaded", f, false);
 		} else { f(); }
 	    })(document, window, "yandex_metrika_callbacks");
+	</script>
+
+	<script type="text/javascript">
+		$(".ru-lang").addClass("hide-view");
+
+		$("#ru-lang").click(function() {
+        	$(this).addClass("hide-view");
+        	$(".en-lang").addClass("hide-view");
+        	$(".ru-lang").removeClass("hide-view");
+        	$("#en-lang").removeClass("hide-view");
+    	});
+
+		$("#en-lang").click(function() {
+        	$(this).addClass("hide-view");
+        	$(".ru-lang").addClass("hide-view");
+        	$(".en-lang").removeClass("hide-view");
+        	$("#ru-lang").removeClass("hide-view");
+    	});
 	</script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/42424409" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
