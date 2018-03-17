@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {LanguageWrapper} from '../../languageWrapper';
+import {Translation} from '../../model/Translation';
 
 @Component({
   selector: 'app-header',
@@ -37,7 +38,7 @@ export class HeaderComponent extends LanguageWrapper {
   ];
   nickname: string;
 
-  flagIconsClasses: any = {en: 'flag-icon-ru', ru: 'flag-icon-gb'};
+  flagIconsClasses: Translation = {en: 'flag-icon-ru', ru: 'flag-icon-gb'};
 
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);

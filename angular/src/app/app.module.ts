@@ -14,6 +14,7 @@ import {ProgrammingComponent} from './components/prograiming/programming.compone
 import {SkillsComponent} from './components/skills/skills.component';
 import {ExperienceComponent} from './components/experience/experience.component';
 import {SocialComponent} from './components/social/social.component';
+import {CommonModule} from '@angular/common';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import {SocialComponent} from './components/social/social.component';
     SkillsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CommonModule
   ],
   providers: [
     InfoService,

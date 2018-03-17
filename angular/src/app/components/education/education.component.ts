@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {LanguageWrapper} from '../../languageWrapper';
 import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
+import {Translation} from '../../model/Translation';
 
 @Component({
   selector: 'app-education',
@@ -10,7 +11,7 @@ import {InfoService} from '../../services/infoService';
 })
 export class EducationComponent extends LanguageWrapper {
 
-  sectionName: any = {en: 'Education', ru: 'Образование'};
+  sectionName: Translation = {en: 'Education', ru: 'Образование'};
 
   educations: Array<any> = [
     {

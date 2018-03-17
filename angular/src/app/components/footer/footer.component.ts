@@ -12,7 +12,6 @@ export class FooterComponent extends LanguageWrapper {
   email: string;
   phone: string;
 
-
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
     this.initInfo();

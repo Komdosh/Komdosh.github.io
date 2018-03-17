@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {LanguageWrapper} from '../../languageWrapper';
 import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
+import {Translation} from '../../model/Translation';
 
 @Component({
   selector: 'app-experience',
@@ -10,7 +11,7 @@ import {InfoService} from '../../services/infoService';
 })
 export class ExperienceComponent extends LanguageWrapper {
 
-  sectionName: any = {en: 'Experience', ru: 'Опыт'};
+  sectionName: Translation = {en: 'Experience', ru: 'Опыт'};
   companies: Array<any> = [
     {
       name: 'Siemens',
