@@ -13,6 +13,7 @@ import {EducationComponent} from './components/education/education.component';
 import {ProgrammingComponent} from './components/prograiming/programming.component';
 import {SkillsComponent} from './components/skills/skills.component';
 import {ExperienceComponent} from './components/experience/experience.component';
+import {SocialComponent} from './components/social/social.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import {ExperienceComponent} from './components/experience/experience.component'
     PersonalInfoComponent,
     ProjectSliderComponent,
     ProgrammingComponent,
+    SocialComponent,
     SkillsComponent
   ],
   imports: [

@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
 import {InfoService} from '../../services/infoService';
-import {LinksToConnect} from '../../model/LinksToConnect';
 import {LanguageBroadcaster} from '../../services/languageHolder';
 import {LanguageWrapper} from '../../languageWrapper';
 
@@ -12,7 +11,7 @@ import {LanguageWrapper} from '../../languageWrapper';
 export class FooterComponent extends LanguageWrapper {
   email: string;
   phone: string;
-  linksToConnect: Array<LinksToConnect>;
+
 
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
@@ -22,7 +21,6 @@ export class FooterComponent extends LanguageWrapper {
   private initInfo() {
     this.email = this.infoService.getEmail();
     this.phone = this.infoService.getPhone();
-    this.linksToConnect = this.infoService.getLinksToConnect();
   }
 }
 
