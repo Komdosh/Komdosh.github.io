@@ -9,19 +9,10 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#" data-nav-section="home"><span class="en-lang">Projects</span><span
-            class="ru-lang">Проекты</span></a></li>
-          <li><a href="#" data-nav-section="about"><span class="en-lang">Person</span><span
-            class="ru-lang">Обо мне</span></a></li>
-          <li><a href="#" data-nav-section="education"><span class="en-lang">Education</span><span class="ru-lang">Образование</span></a>
+          <li class="active" *ngFor="let item of menu"><a href="#" [attr.data-nav-section]="item.navSection"><span>{{item.name[language]}}</span></a>
           </li>
-          <li><a href="#" data-nav-section="services"><span class="en-lang">Programming</span><span class="ru-lang">Программирование</span></a>
-          </li>
-          <li><a href="#" data-nav-section="skills"><span class="en-lang">Skills</span><span
-            class="ru-lang">Навыки</span></a></li>
-          <li><a href="#" data-nav-section="experience"><span class="en-lang">Experience</span><span class="ru-lang">Опыт</span></a>
-          </li>
-          <li><a style="cursor: pointer" id="ru-lang"><i class="flag-icon flag-icon-ru"></i></a></li>
+          <li style="cursor: pointer; padding: 10px 15px" (click)="changeLanguage()"><i
+            [class]="'flag-icon '+flagIconsClasses[language]"></i></li>
           <li><a style="cursor: pointer" id="en-lang" class="hide-view"><i class="flag-icon flag-icon-gb"></i></a></li>
         </ul>
       </div>
