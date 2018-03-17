@@ -12,7 +12,7 @@ export class EducationComponent extends LanguageWrapper {
 
   sectionName: any = {en: 'Education', ru: 'Образование'};
 
-  educations: any = [
+  educations: Array<any> = [
     {
       universityName: {
         en: 'Saint-Petersburg Electrotechnical University "LETI"<br/>Bachelor Degree',

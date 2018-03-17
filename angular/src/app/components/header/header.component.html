@@ -9,9 +9,9 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active" *ngFor="let item of menu"><a href="#" [attr.data-nav-section]="item.navSection"><span>{{item.name[language]}}</span></a>
+          <li *ngFor="let item of menu"><a href="#" [attr.data-nav-section]="item.navSection"><span>{{item.name[language]}}</span></a>
           </li>
-          <li style="cursor: pointer; padding: 10px 15px" (click)="changeLanguage()"><i
+          <li style="cursor: pointer; padding: 22px 0px" (click)="changeLanguage()"><i
             [class]="'flag-icon '+flagIconsClasses[language]"></i></li>
         </ul>
       </div>

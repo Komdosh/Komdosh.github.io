@@ -33,15 +33,11 @@ export class HeaderComponent extends LanguageWrapper {
     {
       name: {en: 'Experience', ru: 'Опыт'},
       navSection: 'experience',
-    },
-    {
-      name: {en: 'Person', ru: 'Обо мне'},
-      navSection: 'about',
-    },
+    }
   ];
   nickname: string;
 
-  flagIconsClasses: any = {en: 'flag-icon-gb', ru: 'flag-icon-ru'};
+  flagIconsClasses: any = {en: 'flag-icon-ru', ru: 'flag-icon-gb'};
 
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
