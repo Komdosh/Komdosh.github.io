@@ -1,89 +1,41 @@
 <div id="slider" data-section="home">
   <div class="owl-carousel owl-carousel-fullwidth">
-    <div class="item" style="background: #352f44;">
+    <div class="item" *ngFor="let project of projects" [ngStyle]="project.style">
       <div class="container" style="position: relative;">
         <div class="row">
           <div class="col-md-7 col-sm-7">
             <div class="fh5co-owl-text-wrap">
               <div class="fh5co-owl-text">
-                <h1 class="fh5co-lead to-animate en-lang">SlaSol &mdash; Android game app</h1>
-                <h1 class="fh5co-lead to-animate ru-lang">SlaSol &mdash; Android приложение</h1>
-                <h2 class="fh5co-sub-lead to-animate en-lang">Try to think in colors</h2>
-                <h2 class="fh5co-sub-lead to-animate ru-lang">Попробуйте мыслить цветами</h2>
-                <h3 class="fh5co-sub-lead to-animate en-lang">Role: Developer</h3>
-                <h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Разработчик</h3>
-                <p class="to-animate-2"><a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol"
-                                           class="btn btn-primary btn-lg">Google Play</a></p>
+                <h1 class="fh5co-lead to-animate">{{project.name[language]}}</h1>
+                <h2 class="fh5co-sub-lead to-animate">{{project.description[language]}}</h2>
+                <h3 class="fh5co-sub-lead to-animate" *ngIf="project.role!=null">{{project.role[language]}}</h3>
+                <p class="to-animate-2">
+                  <a [href]="project.link" class="btn btn-primary btn-lg" target="_blank">
+                    {{project.buttonTitle}}</a>
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 android-image">
-            <div class="android to-animate-2"><img src="assets/images/SlaSol.png" alt=""></div>
+            <div class="android to-animate-2"><img [src]="project.imgUrl" alt=""></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="item" style="background: #78909C;">
-      <div class="container" style="position: relative;">
-        <div class="row">
-          <div class="col-md-7 col-sm-7">
-            <div class="fh5co-owl-text-wrap">
-              <div class="fh5co-owl-text">
-                <h1 class="fh5co-lead to-animate en-lang">SafetyStreets &mdash; Android app</h1>
-                <h1 class="fh5co-lead to-animate ru-lang">SafetyStreets &mdash; Android приложение</h1>
-                <h2 class="fh5co-sub-lead to-animate en-lang">Are the streets safe?</h2>
-                <h2 class="fh5co-sub-lead to-animate ru-lang">Безопасны ли улицы?</h2>
-                <h3 class="fh5co-sub-lead to-animate en-lang">Role: Android Developer</h3>
-                <h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Android разработчик</h3>
-                <p class="to-animate-2"><a href="https://github.com/BlueSkyThinking/SafetyStreetsAndroid"
-                                           class="btn btn-primary btn-lg">Github</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 android-image">
-            <div class="android to-animate-2"><img src="assets/images/SafetyStreets.jpg" alt=""></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="item" style="background: #9E9D24;">
-      <div class="container" style="position: relative;">
-        <div class="row">
-          <div class="col-md-7 col-sm-7">
-            <div class="fh5co-owl-text-wrap">
-              <div class="fh5co-owl-text">
-                <h1 class="fh5co-lead to-animate en-lang">Eltechat &mdash; Android app</h1>
-                <h1 class="fh5co-lead to-animate ru-lang">Eltechat &mdash; Android приложение</h1>
-                <h2 class="fh5co-sub-lead to-animate en-lang">Group chat for Saint-Petersburg Electrotechnical
-                  University</h2>
-                <h2 class="fh5co-sub-lead to-animate ru-lang">Групповой чат для Санкт-Петербургского Государственного
-                  электротехнического университета "ЛЭТИ"</h2>
-                <h3 class="fh5co-sub-lead to-animate en-lang">Role: Android Developer</h3>
-                <h3 class="fh5co-sub-lead to-animate ru-lang">Роль: Android разработчик</h3>
-                <p class="to-animate-2"><a href="https://github.com/Komdosh/AndroidEltechatApp"
-                                           class="btn btn-primary btn-lg">Github</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 android-image">
-            <div class="android to-animate-2"><img src="assets/images/eltechat.png" alt=""></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="item" style="background-image:url('assets/images/slide_5.jpg')">
+    <div class="item" [ngStyle]="githubRepositories.style">
       <div class="overlay"></div>
       <div class="container" style="position: relative;">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <div class="fh5co-owl-text-wrap">
               <div class="fh5co-owl-text">
-                <h1 class="fh5co-lead to-animate en-lang">Github repositories!</h1>
-                <h1 class="fh5co-lead to-animate ru-lang">Github репозитории!</h1>
-                <h2 class="fh5co-sub-lead to-animate en-lang">Checkout other interesting code</h2>
-                <h2 class="fh5co-sub-lead to-animate ru-lang">Прочие проекты</h2>
-                <p class="to-animate-2"><a href="https://github.com/Komdosh?tab=repositories" target="_blank"
-                                           class="btn btn-primary btn-lg">Github</a></p>
+                <h1 class="fh5co-lead to-animate">{{githubRepositories.name[language]}}</h1>
+                <h2 class="fh5co-sub-lead to-animate">{{githubRepositories.description[language]}}</h2>
+                <p class="to-animate-2">
+                  <a [href]="githubRepositories.link" class="btn btn-primary btn-lg" target="_blank">
+                    {{githubRepositories.buttonTitle}}
+                  </a>
+                </p>
               </div>
             </div>
           </div>
