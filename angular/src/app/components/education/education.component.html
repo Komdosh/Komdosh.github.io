@@ -2,33 +2,24 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 section-heading text-center">
-        <h2 class="to-animate en-lang">Education</h2>
-        <h2 class="to-animate ru-lang">Образование</h2>
+        <h2 class="to-animate">{{sectionName[language]}}</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" *ngFor="let education of educations">
         <div class="box-testimony to-animate">
           <blockquote>
             <span class="quote"><span><i class="fa fa-graduation-cap"></i></span></span>
             <ul class="en-lang">
-              <li>Faculty of Computer Science and Technology</li>
-              <li>Department of Computer Science and Engineering</li>
-              <li>Course: 4</li>
-              <li>Group: 4306</li>
+              <li>{{education.degree.faculty[language]}}</li>
+              <li>{{education.degree.department[language]}}</li>
+              <li>{{education.degree.course[language]}}</li>
+              <li>{{education.degree.group[language]}}</li>
             </ul>
-            <ul class="ru-lang">
-              <li>Факультет компьютерных технологий и информатики</li>
-              <li>Кафедра вычислительной техники</li>
-              <li>Курс: 4</li>
-              <li>Группа: 4306</li>
-            </ul>
-            <p><a href="http://eltech.ru" class="btn btn-primary btn-sm en-lang" style="color:white">Web site</a></p>
-            <p><a href="http://eltech.ru" class="btn btn-primary btn-sm ru-lang" style="color:white">Сайт</a></p>
+            <p><a [href]="education.website.link[language]" class="btn btn-primary btn-sm en-lang" style="color:white">
+              {{education.website.buttonTitle[language]}}</a></p>
           </blockquote>
-          <p class="author en-lang">Saint-Petersburg Electrotechnical University "LETI"<br/>Bachelor Degree</p>
-          <p class="author ru-lang">Санкт-Петербургский Государственный<br/>Электротехнический Университет "ЛЭТИ"<br/>Бакалавр
-          </p>
+          <p class="author" [innerHTML]="education.universityName[language]"></p>
         </div>
       </div>
     </div>
