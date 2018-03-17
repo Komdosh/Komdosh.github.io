@@ -1,0 +1,22 @@
+<div id="fh5co-our-services" data-section="programming">
+  <div class="container">
+    <div class="row row-bottom-padded-sm">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="to-animate">{{sectionName[language]}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let pls of programmingLangs; let i of index">
+        <div class="box to-animate" *ngFor="let pl of pls">
+          <div [class]="'icon colored-'+pl.colorNum">
+            <span
+              [ngStyle]="{'color':'white', 'font-size': (pl.fontSize==null?24:pl.fontSize)+'pt'}">{{pl.name}}</span>
+          </div>
+          <h3>{{pl.since[language]}}
+            <br *ngIf="pl.sinceHarder!=null"/>{{pl.sinceHarder != null ? pl.sinceHarder[language]:''}}</h3>
+          <p>{{pl.description[language]}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

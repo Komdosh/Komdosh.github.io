@@ -1,0 +1,22 @@
+<div id="fh5co-features" data-section="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="single-animate animate-features-1">{{sectionName[language]}}</h2>
+      </div>
+    </div>
+    <div class="row row-bottom-padded-sm">
+      <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate" *ngFor="let skill of skills">
+        <div class="fh5co-icon"></div>
+        <div class="fh5co-desc">
+          <h3>{{skill.name}}</h3>
+          <p *ngFor="let about of skill.abouts">{{about.text[language]}}
+            <br *ngIf="about.link != null"/>
+            <a *ngIf="about.link != null" [href]="about.link" target="_blank" class="btn btn-primary btn-sm">{{about.buttonTitle}}</a>
+          </p>
+        </div>
+        <div class="clearfix visible-sm-block visible-xs-block"></div>
+      </div>
+    </div>
+  </div>
+</div>

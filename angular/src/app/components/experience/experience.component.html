@@ -1,0 +1,29 @@
+<div id="fh5co-press" data-section="experience">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="single-animate animate-press-1 en-lang">{{sectionName[language]}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let company of companies">
+        <div class="fh5co-press-item to-animate">
+          <div class="fh5co-press-text">
+            <h3 class="h2 fh5co-press-title">{{company.name}}<span class="fh5co-border"></span></h3>
+            <ul>
+              <li style="white-space: nowrap">{{company.position.name[language]}}</li>
+              <li style="white-space: nowrap">{{company.position.since[language]}}</li>
+              <li style="white-space: nowrap">{{company.position.until[language]}}</li>
+            </ul>
+            <p>{{responsibility[language]}}:
+            <ul>
+              <li *ngFor="let responsibility of company.responsibilities">{{responsibility[language]}}</li>
+            </ul>
+            <p><a [href]="company.website.link[language]" class="btn btn-primary btn-sm" style="color:white">
+              {{company.website.buttonTitle[language]}}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
