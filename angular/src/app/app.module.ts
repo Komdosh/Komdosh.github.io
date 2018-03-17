@@ -8,14 +8,24 @@ import {HeaderComponent} from './components/header/header.component';
 import {ProjectSliderComponent} from './components/projectSlider/projectSlider.component';
 import {InfoService} from './services/infoService';
 import {LanguageBroadcaster} from './services/languageHolder';
+import {PersonalInfoComponent} from './components/personalInfo/personalInfo.component';
+import {EducationComponent} from './components/education/education.component';
+import {ProgrammingComponent} from './components/prograiming/programming.component';
+import {SkillsComponent} from './components/skills/skills.component';
+import {ExperienceComponent} from './components/experience/experience.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    EducationComponent,
+    ExperienceComponent,
     FooterComponent,
     HeaderComponent,
-    ProjectSliderComponent
+    PersonalInfoComponent,
+    ProjectSliderComponent,
+    ProgrammingComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule
@@ -26,4 +36,5 @@ import {LanguageBroadcaster} from './services/languageHolder';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
