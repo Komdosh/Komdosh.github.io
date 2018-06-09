@@ -827,10 +827,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto;
   height: 150px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  border-radius: 10%;
 }
 
 .person .name {
