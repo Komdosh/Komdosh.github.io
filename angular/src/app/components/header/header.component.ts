@@ -24,6 +24,10 @@ export class HeaderComponent extends LanguageWrapper {
       navSection: 'education',
     },
     {
+      name: {en: 'Portfolio', ru: 'Портфолио'},
+      navSection: 'portfolio',
+    },
+    {
       name: {en: 'Programming', ru: 'Программирование'},
       navSection: 'programming',
     },
