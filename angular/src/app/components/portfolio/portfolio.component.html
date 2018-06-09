@@ -6,14 +6,14 @@
       </div>
     </div>
     <div class="row row-bottom-padded-sm">
-      <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate" >
+
         <div class="fh5co-icon"></div>
         <div class="fh5co-desc">
           <section>
             <div class="my-app-custom-plain-container-row">
-              <ng-container *ngFor="let img of images; let i = index">
-                <div *ngIf="i <= 3"> <!-- 2 is a fixed value that I'm using to display only two images -->
-                  <a class="more" *ngIf="i==3" (click)="openImageModalRow(img)"> +{{images.length - 3 - 1}} more </a>
+              <ng-container *ngFor="let img of images; let i = index" >
+                <div *ngIf="i <= 2"  class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate"> <!-- 2 is a fixed value that I'm using to display only two images -->
+                  <a class="more" *ngIf="i==2" (click)="openImageModalRow(img)"> +{{images.length - 2 - 1}} more </a>
                   <img *ngIf="img.plain && img.plain.img; else noThumb"
                        class="my-app-custom-image-row"
                        [src]="img.plain.img"
@@ -36,5 +36,4 @@
         <div class="clearfix visible-sm-block visible-xs-block"></div>
       </div>
     </div>
-  </div>
 </div>

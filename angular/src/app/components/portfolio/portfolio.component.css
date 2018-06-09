@@ -1,14 +1,8 @@
-.my-app-custom-plain-container-row {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
 .my-app-custom-plain-container-row .my-app-custom-image-row {
   cursor: pointer;
-  height: 390px;
+  height: auto;
   margin-right: 2px;
-  width: 270px;
+  width: 250px;
 }
 .my-app-custom-plain-container-row .my-app-custom-image-row.after {
   border-top: 2px;
@@ -18,7 +12,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 250px;
 }
 .my-app-custom-plain-container-column {
   align-items: center;
@@ -30,7 +24,7 @@
   cursor: pointer;
   height: auto;
   margin-right: 2px;
-  width: 270px;
+  width: 100%;
 }
 .my-app-custom-plain-container-column .my-app-custom-image-column.after {
   border-top: 2px;
@@ -72,9 +66,9 @@
   text-align: center;
 }
 .my-app-custom-plain-container-with-desc .my-app-custom-image-with-desc {
-  height: 390px;
+  height: auto;
   margin-right: 2px;
-  width: 270px;
+  width: 100%;
   align-self: start;
 }
 .more {
@@ -82,12 +76,12 @@
   cursor: pointer;
   color: #fff;
   padding-top: 4px;
-  height: 390px;
+  height: 354px;
   position: absolute;
   text-align: center;
-  width: 270px;
+  width: 250px;
   vertical-align: middle;
-  line-height: 387px;
+  line-height: 354px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 2rem;
 }
