@@ -19,47 +19,32 @@ export class PortfolioComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Portfolio', ru: 'Портфолио'};
 
-  imageIndex = 1;
-  galleryId = 1;
-
-
-  imgs: Array<any> = [
-    '/assets/images/portfolio/1.jpg',
-    '/assets/images/portfolio/2.jpg',
-    '/assets/images/portfolio/3.jpg',
-    '/assets/images/portfolio/4.jpg',
-    '/assets/images/portfolio/5.jpg',
-    '/assets/images/portfolio/6.jpg',
-    '/assets/images/portfolio/7.jpg',
-    '/assets/images/portfolio/8.jpg',
-  ];
-
   images: Image[] = [
     new Image(
       1,
       {
-        img: '/assets/images/portfolio/7.jpg',
+        img: '/dist/assets/images/portfolio/7.jpg',
         description: null
       }
     ),
     new Image(
       2,
       {
-        img: '/assets/images/portfolio/8.jpg',
+        img: '/dist/assets/images/portfolio/8.jpg',
         description: null
       }
     ),
     new Image(
       4,
       {
-        img: '/assets/images/portfolio/2.jpg',
+        img: '/dist/assets/images/portfolio/2.jpg',
         description: null
       }
     ),
     new Image(
       3,
       {
-        img: '/assets/images/portfolio/1.jpg',
+        img: '/dist/assets/images/portfolio/1.jpg',
         description: null
       }
     ),
@@ -67,28 +52,28 @@ export class PortfolioComponent extends LanguageWrapper {
     new Image(
       5,
       {
-        img: '/assets/images/portfolio/3.jpg',
+        img: '/dist/assets/images/portfolio/3.jpg',
         description: null
       }
     ),
     new Image(
       6,
       {
-        img: '/assets/images/portfolio/4.jpg',
+        img: '/dist/assets/images/portfolio/4.jpg',
         description: null
       }
     ),
     new Image(
       7,
       {
-        img: '/assets/images/portfolio/5.jpg',
+        img: '/dist/assets/images/portfolio/5.jpg',
         description: null
       }
     ),
     new Image(
       8,
       {
-        img: '/assets/images/portfolio/6.jpg',
+        img: '/dist/assets/images/portfolio/6.jpg',
         description: null
       }
     ),
