@@ -15,6 +15,9 @@ import {SkillsComponent} from './components/skills/skills.component';
 import {ExperienceComponent} from './components/experience/experience.component';
 import {SocialComponent} from './components/social/social.component';
 import {CommonModule} from '@angular/common';
+import {PortfolioComponent} from "./components/portfolio/portfolio.component";
+import {FormsModule} from "@angular/forms";
+import {ModalGalleryModule} from "@ks89/angular-modal-gallery";
 
 
 @NgModule({
@@ -28,11 +31,14 @@ import {CommonModule} from '@angular/common';
     ProjectSliderComponent,
     ProgrammingComponent,
     SocialComponent,
-    SkillsComponent
+    SkillsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ModalGalleryModule.forRoot()
   ],
   providers: [
     InfoService,

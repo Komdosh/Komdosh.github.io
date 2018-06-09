@@ -7,7 +7,6 @@ export class LanguageWrapper {
   constructor(languageBroadcaster: LanguageBroadcaster) {
     this.language = languageBroadcaster.getLanguage();
     languageBroadcaster.getLanguageSubscription().subscribe(lang => {
-      console.log(lang);
       this.language = lang;
     });
   }

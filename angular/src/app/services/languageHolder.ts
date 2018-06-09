@@ -16,7 +16,6 @@ export class LanguageBroadcaster {
     if (language != null) {
       this.language = language;
     } else {
-      console.log(LANGUAGE);
       this.language = this.language === LANGUAGE.en ? LANGUAGE.ru : LANGUAGE.en;
     }
 

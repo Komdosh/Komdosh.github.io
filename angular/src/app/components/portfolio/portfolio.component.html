@@ -1,0 +1,40 @@
+<div id="fh5co-features" data-section="portfolio">
+  <div class="container">
+    <div class="row row-bottom-padded-sm">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="to-animate">{{sectionName[language]}}</h2>
+      </div>
+    </div>
+    <div class="row row-bottom-padded-sm">
+      <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate" >
+        <div class="fh5co-icon"></div>
+        <div class="fh5co-desc">
+          <section>
+            <div class="my-app-custom-plain-container-row">
+              <ng-container *ngFor="let img of images; let i = index">
+                <div *ngIf="i <= 3"> <!-- 2 is a fixed value that I'm using to display only two images -->
+                  <a class="more" *ngIf="i==3" (click)="openImageModalRow(img)"> +{{images.length - 3 - 1}} more </a>
+                  <img *ngIf="img.plain && img.plain.img; else noThumb"
+                       class="my-app-custom-image-row"
+                       [src]="img.plain.img"
+                       (click)="openImageModalRow(img)"
+                       [alt]="img.modal.description"/>
+
+                  <ng-template #noThumb>
+                    <img class="my-app-custom-image-row"
+                         [src]="img.modal.img"
+                         (click)="openImageModalRow(img)"
+                         [alt]="img.modal.description"/>
+                  </ng-template>
+                </div>
+              </ng-container>
+            </div>
+            <ks-modal-gallery [id]="6" [modalImages]="images"
+                              [plainGalleryConfig]="customPlainGalleryRowConfig"></ks-modal-gallery>
+          </section>
+        </div>
+        <div class="clearfix visible-sm-block visible-xs-block"></div>
+      </div>
+    </div>
+  </div>
+</div>
