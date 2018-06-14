@@ -10,7 +10,7 @@ import {InfoService} from './services/infoService';
 import {LanguageBroadcaster} from './services/languageHolder';
 import {PersonalInfoComponent} from './components/personalInfo/personalInfo.component';
 import {EducationComponent} from './components/education/education.component';
-import {ProgrammingComponent} from './components/prograiming/programming.component';
+import {ProgrammingComponent} from './components/programming/programming.component';
 import {SkillsComponent} from './components/skills/skills.component';
 import {ExperienceComponent} from './components/experience/experience.component';
 import {SocialComponent} from './components/social/social.component';

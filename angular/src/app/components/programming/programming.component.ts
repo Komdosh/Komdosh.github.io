@@ -38,7 +38,7 @@ export class ProgrammingComponent extends LanguageWrapper {
         name: 'Assembler',
         since: {en: 'Since January 2016', ru: 'С Января 2016'},
         description: {
-          en: 'Wrote a few simple programms. It\'s useful for understanding, how does programs work inside',
+          en: 'Wrote a few simple programs. It\'s useful for understanding, how does programs work inside',
           ru: 'Написал несколько простых программ. Полезный опыт, чтобы понять, как программы работают изнутри'
         },
         colorNum: '3',
@@ -61,7 +61,7 @@ export class ProgrammingComponent extends LanguageWrapper {
         since: {en: 'Since 2009', ru: 'С 2009'},
         sinceHarder: {en: 'Harder since June 2016', ru: 'Усерднее с июня 2016'},
         description: {
-          en: 'The one of my first programming languges. Start with writing simple scripts for sites, ' +
+          en: 'The one of my first programming languages. Start with writing simple scripts for sites, ' +
           'now I deal with it in my work',
           ru: 'Один из первых языков, которые я освоил. Начал с написания простых скриптов для своих сайтов.' +
           ' Сейчас имею с ним дело на работе'
@@ -89,10 +89,10 @@ export class ProgrammingComponent extends LanguageWrapper {
         colorNum: '1'
       },
       {
-        name: 'Phyton',
+        name: 'Python',
         since: {en: 'Since February 2016', ru: 'С февраля 2016'},
         description: {
-          en: 'Want to learn something unusal language. Now I could write a simple programms on it',
+          en: 'Want to learn something unusal language. Now I could write a simple programs on it',
           ru: 'Хотелось научиться языку, который не похож на C'
         },
         colorNum: '5',
