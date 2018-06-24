@@ -6,15 +6,15 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12" *ngFor="let education of educations">
+      <div class="col-md-6" *ngFor="let education of educations">
         <div class="box-testimony to-animate">
           <blockquote>
             <span class="quote"><span><i class="fa fa-graduation-cap"></i></span></span>
             <ul class="en-lang">
               <li>{{education.degree.faculty[language]}}</li>
               <li>{{education.degree.department[language]}}</li>
-              <li>{{education.degree.course[language]}}</li>
               <li>{{education.degree.group[language]}}</li>
+              <li>{{education.degree.stage[language]}}</li>
             </ul>
             <p><a [href]="education.website.link[language]" class="btn btn-primary btn-sm" style="color:white">
               {{education.website.buttonTitle[language]}}</a></p>

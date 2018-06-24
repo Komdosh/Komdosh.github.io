@@ -15,7 +15,7 @@
               <li style="white-space: nowrap">{{company.position.since[language]}}</li>
               <li style="white-space: nowrap">{{company.position.until[language]}}</li>
             </ul>
-            <p>{{responsibility[language]}}:
+            {{responsibility[language]}}:
             <ul>
               <li *ngFor="let responsibility of company.responsibilities">{{responsibility[language]}}</li>
             </ul>

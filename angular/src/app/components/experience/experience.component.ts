@@ -45,8 +45,11 @@ export class ExperienceComponent extends LanguageWrapper {
           ru: 'Web разработка: Angular 4-5, Spring, PostgreSQL, Intersystems Cache'
         },
         {en: 'Apache POI для автоматизации отчётов', ru: 'Apache POI для автоматизации отчётов'},
-        {en: 'Apache POI for reports automation', ru: 'Разработка архитектуры приложений'},
+        {en: 'Developing application architecture', ru: 'Разработка архитектуры приложений'},
         {en: 'Map processing: shapefile, kml\\kmz', ru: 'Обработка карт: shapefile, kml\\kmz'},
+        {en: 'FHIR', ru: 'FHIR'},
+        {en: 'Caché', ru: 'Caché'},
+        {en: 'Apache Ruta Script', ru: 'Apache Ruta Script'},
         {en: 'DevOps', ru: 'DevOps'},
       ],
       website: {

@@ -83,7 +83,7 @@ export class ProgrammingComponent extends LanguageWrapper {
         name: 'Kotlin',
         since: {en: 'Since March 2017', ru: 'С Марта 2017'},
         description: {
-          en: 'Start lerning for writing Android apps not only in Java',
+          en: 'Start learning for writing Android apps not only in Java',
           ru: 'Начал изучать для написания приложений под Android не только на Java'
         },
         colorNum: '1'
@@ -92,7 +92,7 @@ export class ProgrammingComponent extends LanguageWrapper {
         name: 'Python',
         since: {en: 'Since February 2016', ru: 'С февраля 2016'},
         description: {
-          en: 'Want to learn something unusal language. Now I could write a simple programs on it',
+          en: 'Want to learn something unusual language. Now I could write a simple programs on it',
           ru: 'Хотелось научиться языку, который не похож на C'
         },
         colorNum: '5',
