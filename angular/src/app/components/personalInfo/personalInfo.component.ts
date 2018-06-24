@@ -13,7 +13,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Personal Info', ru: 'Обо мне'};
 
-  name: Translation = {en: 'Tabakov Andrey', ru: 'Табаков Андрей Викторович'};
+  name: Translation = {en: 'Tabakov Andrey', ru: 'Табаков Андрей'};
 
   position = 'Full-Stack Developer';
 
