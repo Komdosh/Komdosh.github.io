@@ -1,14 +1,10 @@
-import {Component} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
 import {LanguageWrapper} from '../../languageWrapper';
 import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
-import {
-  AdvancedLayout,
-  Image,
-  PlainGalleryConfig,
-  PlainGalleryStrategy
-} from "@ks89/angular-modal-gallery";
+import {GALLERY_CONF, GALLERY_IMAGE, NgxImageGalleryComponent} from 'ngx-image-gallery';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-portfolio',
@@ -17,84 +13,39 @@ import {
 })
 export class PortfolioComponent extends LanguageWrapper {
 
+  @ViewChild(NgxImageGalleryComponent) ngxImageGallery: NgxImageGalleryComponent;
+
   sectionName: Translation = {en: 'Portfolio', ru: 'Портфолио'};
 
-  images: Image[] = [
-    new Image(
-      1,
-      {
-        img: '/dist/assets/images/portfolio/7.jpg',
-        description: null
-      }
-    ),
-    new Image(
-      2,
-      {
-        img: '/dist/assets/images/portfolio/8.jpg',
-        description: null
-      }
-    ),
-    new Image(
-      4,
-      {
-        img: '/dist/assets/images/portfolio/2.jpg',
-        description: null
-      }
-    ),
-    new Image(
-      3,
-      {
-        img: '/dist/assets/images/portfolio/1.jpg',
-        description: null
-      }
-    ),
-
-    new Image(
-      5,
-      {
-        img: '/dist/assets/images/portfolio/3.jpg',
-        description: null
-      }
-    ),
-    new Image(
-      6,
-      {
-        img: '/dist/assets/images/portfolio/4.jpg',
-        description: null
-      }
-    ),
-    new Image(
-      7,
-      {
-        img: '/dist/assets/images/portfolio/5.jpg',
-        description: null
-      }
-    ),
-    new Image(
-      8,
-      {
-        img: '/dist/assets/images/portfolio/6.jpg',
-        description: null
-      }
-    ),
-
-  ];
-
-  customPlainGalleryRowConfig: PlainGalleryConfig = {
-    strategy: PlainGalleryStrategy.CUSTOM,
-    layout: new AdvancedLayout(-1, true)
+  conf: GALLERY_CONF = {
+    showDeleteControl: false,
+    showImageTitle: false,
+    inline: true,
+    showCloseControl: false,
+    backdropColor: 'rgba(0,0,0,0.0)', // gallery backdrop (background) color (default rgba(13,13,14,0.85))
   };
-  openImageModalRow(image: Image) {
-    const index: number = this.getCurrentIndexCustomLayout(image, this.images);
-    this.customPlainGalleryRowConfig = Object.assign({}, this.customPlainGalleryRowConfig, { layout: new AdvancedLayout(index, true) });
-  }
 
-  private getCurrentIndexCustomLayout(image: Image, images: Image[]): number {
-    return image ? images.indexOf(image) : -1;
-  }
+  baseHref = environment.baseHref;
+  portfolioImagesPath = `${this.baseHref}/assets/images/portfolio`;
+
+  images: GALLERY_IMAGE[] = [];
 
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
+    this.createImagesList();
+    console.log(this.baseHref);
+  }
+
+  createImagesList() {
+    const imgNums = [10, 9, 7, 8, 2, 1, 3, 4, 5, 6];
+    const imgLength = imgNums.length;
+    console.log(this.baseHref);
+    for (let i = 0; i < imgLength; ++i) {
+      this.images.push({
+        url: `${this.portfolioImagesPath}/${imgNums[i]}.jpg`,
+        extUrl: `${this.portfolioImagesPath}/${imgNums[i]}.jpg`,
+      });
+    }
   }
 }
 
