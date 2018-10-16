@@ -23,6 +23,8 @@ export class PortfolioComponent extends LanguageWrapper {
     inline: true,
     showCloseControl: false,
     backdropColor: 'rgba(0,0,0,0.0)', // gallery backdrop (background) color (default rgba(13,13,14,0.85))
+    reactToMouseWheel: false,
+    reactToRightClick:false,
   };
 
   baseHref = environment.baseHref;
@@ -37,9 +39,9 @@ export class PortfolioComponent extends LanguageWrapper {
   }
 
   createImagesList() {
-    const imgNums = [10, 9, 7, 8, 2, 1, 3, 4, 5, 6];
+    const imgNums = [10, 9, 7, 8, 6, 2, 1, 3, 4, 5];
     const imgLength = imgNums.length;
-    console.log(this.baseHref);
+
     for (let i = 0; i < imgLength; ++i) {
       this.images.push({
         url: `${this.portfolioImagesPath}/${imgNums[i]}.jpg`,
