@@ -31,80 +31,14 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update index.html and bundled dist">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="new build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/simple-line-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/Read Me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/selection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/SafetyStreets.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/SlaSol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/eltechat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/google-play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/slide_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/travellante.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.style.switcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.018238f4f4e86daf8f10.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.66329502b133f6f13afb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.ec2944dd8b20ec099bf3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.5f175451ae854810fe6d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,46 +51,51 @@
     <session id="-386564516">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="1" />
+          <entry key="css" value="3" />
+          <entry key="html" value="4" />
           <entry key="json" value="3" />
-          <entry key="ts" value="4" />
+          <entry key="ts" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="TypeScript" value="4" />
+          <entry key="TypeScript" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="14" />
-          <entry key="ts" value="30" />
-          <entry key="txt" value="41" />
+          <entry key="html" value="78" />
+          <entry key="json" value="8" />
+          <entry key="ts" value="87" />
+          <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="14" />
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="TypeScript" value="30" />
+          <entry key="HTML" value="79" />
+          <entry key="JSON" value="8" />
+          <entry key="PLAIN_TEXT" value="69" />
+          <entry key="TypeScript" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="2" />
+          <entry key="Angular2LanguageService" value="3" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -167,26 +106,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="316">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/angular/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3096">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="552">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="815" selection-start-line="815" selection-end-line="815" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -194,32 +151,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="216">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="n#style#0;n#ngx-image-gallery#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/main.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/angular/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-816">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -236,7 +192,11 @@
       <find>displa</find>
       <find>phy</find>
       <find>runtime</find>
+      <find>\n</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&lt;br/&gt;</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\atabakov\Documents\vhd\Komdosh.github.io\angular\src\app\components</dir>
       <dir>C:\Users\atabakov\Documents\vhd\Komdosh.github.io\angular\src\app</dir>
@@ -268,12 +228,14 @@
         <option value="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" />
         <option value="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" />
-        <option value="$PROJECT_DIR$/angular/package.json" />
-        <option value="$PROJECT_DIR$/angular/src/index.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/angular/package.json" />
+        <option value="$PROJECT_DIR$/angular/src/index.html" />
+        <option value="$PROJECT_DIR$/angular/src/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" />
       </list>
     </option>
   </component>
@@ -282,6 +244,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/angular/node_modules" />
@@ -303,7 +271,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,22 +377,20 @@
             <path>
               <item name="Komdosh.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Komdosh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539682948514" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540543922092" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -516,7 +481,11 @@
       <workItem from="1536313673310" duration="30000" />
       <workItem from="1539197527231" duration="2031000" />
       <workItem from="1539681016229" duration="548000" />
-      <workItem from="1539682629368" duration="238000" />
+      <workItem from="1539682629368" duration="466000" />
+      <workItem from="1539686385658" duration="597000" />
+      <workItem from="1539697501081" duration="682000" />
+      <workItem from="1539699356026" duration="112000" />
+      <workItem from="1540537953712" duration="2192000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -623,17 +592,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539197722342</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new build">
+      <created>1539683023824</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1539683023824</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14319000" />
+    <option name="totallyTimeSpent" value="18130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -647,8 +623,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3281412" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.3271028" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3281412" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -664,7 +640,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -724,7 +700,8 @@
     <MESSAGE value="update personal info" />
     <MESSAGE value="compile personal info update" />
     <MESSAGE value="update index.html and bundled dist" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html and bundled dist" />
+    <MESSAGE value="new build" />
+    <option name="LAST_COMMIT_MESSAGE" value="new build" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -847,37 +824,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/node_modules/ngx-image-gallery/package.json" />
     <entry file="file://$PROJECT_DIR$/angular/node_modules/ngx-image-gallery/ngx-image-gallery.d.ts" />
     <entry file="file://$PROJECT_DIR$/angular/node_modules/ngx-image-gallery/ngx-image-gallery.conf.d.ts" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3096">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="2472">
+          <caret line="103" column="19" selection-end-line="129" />
         </state>
       </provider>
     </entry>
@@ -897,24 +850,65 @@
     <entry file="file://$PROJECT_DIR$/angular/src/main.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/programming/programming.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/package.json">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="-816">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/angular.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="815" selection-start-line="815" selection-end-line="815" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -934,5 +928,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

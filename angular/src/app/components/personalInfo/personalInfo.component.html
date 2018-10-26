@@ -10,7 +10,7 @@
             <img src="assets/images/face.jpg" class="img-responsive img-rounded" alt="Person">
             <h3 class="name">{{name[language]}}</h3>
             <div class="position">{{position}}</div>
-            <p>{{aboutFirstPart[language]}}<br/>{{aboutSecondPart[language]}}</p>
+            <p><span>{{aboutFirstPart[language]}}</span><br/><br/><span [innerHtml]="aboutSecondPart[language]"></span></p>
             <app-social></app-social>
           </div>
         </div>
