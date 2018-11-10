@@ -98,8 +98,8 @@ export class SkillsComponent extends LanguageWrapper {
       abouts: [
         {
           text: {
-            en: 'Use Ubuntu Linux, sometimes use another dists like Gentoo, Kali, Debian and so on. Worked with Windows a lot',
-            ru: 'Использую Ubuntu Linux, пользовался и другими дистрибутивами такими как Gentoo, Kali, Debian. Очень долго пользовался Windows'
+            en: 'Use Mac OS X, Windows, Ubuntu Linux, sometimes use another dists like Gentoo, Kali, Debian and so on.',
+            ru: 'Использую Mac OS X, Windows, Ubuntu Linux, пользовался и другими дистрибутивами такими как Gentoo, Kali, Debian.'
           },
         },
       ]
