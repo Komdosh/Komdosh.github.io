@@ -99,7 +99,7 @@ export class ExperienceComponent extends LanguageWrapper {
           '<br/>' +
           'In several projects I consulting developers and for some of them I make a code review of pull-requests.<br/>' +
           '<br/>' +
-          'For task management we use Atlasian Jira. For project management, flexible methodologies such as Scrum, Kanban, XP are used.<br/>',
+          'For task management we use Atlassian Jira. For project management, flexible methodologies such as Scrum, Kanban, XP are used.<br/>',
         ru: 'Принимаю участие в командной разработке нескольких проектов в сфере дорожной обстановки и здравоохранения. Основной стек технологий Java 10 + Spring + Angular <br/>' +
           '<br/>' +
           'Мной был реализован код, составляющий автоматизированные отчёты в формате PPTX, используя библиотеку Apache POI.<br/>' +
@@ -118,7 +118,7 @@ export class ExperienceComponent extends LanguageWrapper {
           '<br/>' +
           'В нескольких проектах выступаю в роли консультанта. Провожу переодические CodeReview пулл-реквестов.<br/>' +
           '<br/>' +
-          'Для планирования и распределения задач используется Atlasian Jira. Используются приёмы из гибких методологий таких как Scrum, Kanban, XP.<br/>'
+          'Для планирования и распределения задач используется Atlassian Jira. Используются приёмы из гибких методологий таких как Scrum, Kanban, XP.<br/>'
       },
       website: {
         buttonTitle: {en: 'Web site', ru: 'Сайт'},
