@@ -13,7 +13,7 @@ import {environment} from '../../../environments/environment';
 })
 export class PortfolioComponent extends LanguageWrapper {
 
-  @ViewChild(NgxImageGalleryComponent) ngxImageGallery: NgxImageGalleryComponent;
+  @ViewChild(NgxImageGalleryComponent, {static: true}) ngxImageGallery: NgxImageGalleryComponent;
 
   sectionName: Translation = {en: 'Portfolio', ru: 'Портфолио'};
 
@@ -35,7 +35,6 @@ export class PortfolioComponent extends LanguageWrapper {
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
     this.createImagesList();
-    console.log(this.baseHref);
   }
 
   createImagesList() {
