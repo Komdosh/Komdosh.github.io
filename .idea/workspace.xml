@@ -31,11 +31,80 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update info">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" afterDir="false" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update versioning and fix angular migration">
+      <change beforePath="$PROJECT_DIR$/angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/SafetyStreets.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/SlaSol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/eltechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/slide_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/travellante.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.style.switcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.2d2bdc9875dcb35ece8c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.66329502b133f6f13afb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.ec2944dd8b20ec099bf3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.5f175451ae854810fe6d.css" beforeDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,13 +113,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="-97">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/languageWrapper.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/environments/environment.prod.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/environments/environment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/polyfills.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -59,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -70,65 +186,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/angular.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Komdosh.github.io.iml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/tsconfig.app.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/node_modules/@angular/core/core.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="8392" column="4" selection-start-line="8392" selection-start-column="4" selection-end-line="8392" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="119" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="111" column="8" selection-end-line="129" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -180,8 +251,9 @@
         <option value="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" />
-        <option value="$PROJECT_DIR$/angular/tsconfig.json" />
         <option value="$PROJECT_DIR$/angular/package.json" />
+        <option value="$PROJECT_DIR$/angular/src/polyfills.ts" />
+        <option value="$PROJECT_DIR$/angular/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -226,30 +298,6 @@
               <item name="angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Komdosh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Komdosh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Komdosh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Komdosh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Komdosh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Komdosh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,7 +413,7 @@
       <workItem from="1540537953712" duration="2808000" />
       <workItem from="1541850154154" duration="4353000" />
       <workItem from="1554970340775" duration="396000" />
-      <workItem from="1563856832573" duration="257000" />
+      <workItem from="1563856832573" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -500,17 +548,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541851291893</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update versioning and fix angular migration">
+      <created>1563857117949</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563857117949</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23752000" />
+    <option name="totallyTimeSpent" value="24081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2899878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2899878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -525,7 +580,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32848233" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2982456" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2982456" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -618,7 +673,8 @@
     <MESSAGE value="update personal info" />
     <MESSAGE value="update bundle" />
     <MESSAGE value="update info" />
-    <option name="LAST_COMMIT_MESSAGE" value="update info" />
+    <MESSAGE value="update versioning and fix angular migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="update versioning and fix angular migration" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -641,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/languageWrapper.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -729,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/environments/environment.prod.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19560">
@@ -764,15 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,29 +895,65 @@
     <entry file="file://$PROJECT_DIR$/Komdosh.github.io.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/package.json">
+    <entry file="file://$PROJECT_DIR$/angular/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/polyfills.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="598">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/languageWrapper.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/angular.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
