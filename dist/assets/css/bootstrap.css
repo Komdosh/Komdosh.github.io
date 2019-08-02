@@ -4693,7 +4693,13 @@ tbody.collapse.in {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 9px;
+}
+
+.nav > li > i {
+  position: relative;
+  display: block;
+  padding: 5px 9px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {

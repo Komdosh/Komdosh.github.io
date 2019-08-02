@@ -31,23 +31,15 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update libraries">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/components/education/education.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/education/education.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/education/education.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/education/education.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" afterDir="false" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="add idea config files">
+      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/turquoise.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.751bdd1dc20153845264.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.3ff695c00d717f2d2a11.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.6a9f5fde365a77ab7943.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.f311cbaa608fa12218d7.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
