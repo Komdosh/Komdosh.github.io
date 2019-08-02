@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/lib/isc/com/intersys/uima/1.0/uima-1.0.pom">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/lib/isc/com/intersystems/uima/1.0.0/intersystems-uima-1.0.0.pom">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/app.routing.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/constants/titles.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/admin/reannotation/reannotation.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/decision/components/cds/cds.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/groupPopover/groupPopover.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/groupPopover/groups.service.holder.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/groupPopover/groups.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/logicEditor/logicEditor.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/workflow/workflow.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/worklist/rule/rule.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/worklist/rule/rule.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/worklist/step/step.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/components/worklist/worklist.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/library/library.module.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/platform/components/changePassword/changePassword.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/platform/components/changePassword/changePassword.component.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/platform/components/forgotPassword/forgotPassword.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/platform/components/forgotPassword/forgotPassword.component.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/platform/components/forgotPassword/forgotPassword.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/modules/platform/platform.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/service/logicService.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/frontend/app/service/sideBarService.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/ImportTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/Testing.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/TryUima.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/config/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/controller/AngularController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/model/decision/EvaluateNextResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/model/decision/EvaluateWrapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/model/library/decisiontree/BinaryExpression.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/model/library/decisiontree/Parser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/model/smart/ProbabilityBasedNextQuestionCalculateStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/service/decision/DecisionSupportService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/service/decision/EvaluationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/service/decision/NextQuestionAlgorithm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/service/decision/ProcedureAlgorithm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/java/com/alunagroup/platform/service/source/AnnotatingService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/resources/config/application-tav.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Aluna/platform/src/main/resources/config/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Components/PatientsView/Modal/modalPatientsView.component.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Components/PatientsView/Modal/modalPatientsView.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Components/PatientsView/Modal/modalPatientsView.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Components/UserApps/AppClientCredential/modalAppClientCredential.component.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Components/UserApps/Modal/modalUserApps.component.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Components/UserApps/PatientPicker/modalPatientPicker.component.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Intersystems/App/src/app/Service/authService.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/workspace.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/angular.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/node_modules/@angular/bazel/src/builders/files/__dot__bazelrc.template">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/package-lock.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/app.module.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/education/education.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/assets/css/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/src/tsconfig.app.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/angular/tsconfig.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dist/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
