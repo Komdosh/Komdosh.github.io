@@ -4,25 +4,37 @@ import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
 
+type Education = {
+  universityName: Translation,
+  degree: { faculty: Translation, department: Translation, stage: Translation },
+  website: { buttonTitle: Translation, link: Translation }
+};
+
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
-  styleUrls: ['./education.component.css']
+  styleUrls: ['./education.component.scss']
 })
 export class EducationComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Education', ru: 'Образование'};
 
-  educations: Array<any> = [
+  educations: Array<Education> = [
     {
       universityName: {
-        en: 'Saint-Petersburg Electrotechnical University "LETI"<br/>Bachelor Degree',
-        ru: 'Санкт-Петербургский Государственный<br/>Электротехнический Университет "ЛЭТИ"<br/>Бакалавр'
+        en: 'Saint-Petersburg Electrotechnical University "LETI"<br/>Master\'s Degree',
+        ru: 'Санкт-Петербургский Государственный<br/>Электротехнический Университет "ЛЭТИ"<br/>Магистр'
       },
       degree: {
-        faculty: {en: 'Faculty of Computer Science and Technology', ru: 'Факультет компьютерных технологий и информатики'},
-        department: {en: 'Department of Computer Science and Engineering', ru: 'Кафедра вычислительной техники'},
-        stage: {en: 'Status: Finished', ru: 'Статус: Окончено'},
+        faculty: {
+          en: 'Faculty of Computer Science and Technology',
+          ru: 'Факультет компьютерных технологий и информатики'
+        },
+        department: {
+          en: 'Department of Computer Science and Engineering',
+          ru: 'Кафедра вычислительной техники'
+        },
+        stage: {en: 'Status: 2 course', ru: 'Статус: 2 курс'},
       },
       website: {
         buttonTitle: {en: 'Web site', ru: 'Сайт'},
@@ -31,13 +43,19 @@ export class EducationComponent extends LanguageWrapper {
     },
     {
       universityName: {
-        en: 'Saint-Petersburg Electrotechnical University "LETI"<br/>Master\'s Degree',
-        ru: 'Санкт-Петербургский Государственный<br/>Электротехнический Университет "ЛЭТИ"<br/>Магистр'
+        en: 'Saint-Petersburg Electrotechnical University "LETI"<br/>Bachelor Degree',
+        ru: 'Санкт-Петербургский Государственный<br/>Электротехнический Университет "ЛЭТИ"<br/>Бакалавр'
       },
       degree: {
-        faculty: {en: 'Faculty of Computer Science and Technology', ru: 'Факультет компьютерных технологий и информатики'},
-        department: {en: 'Department of Computer Science and Engineering', ru: 'Кафедра вычислительной техники'},
-        stage: {en: 'Status: 1 course', ru: 'Статус: 1 курс'},
+        faculty: {
+          en: 'Faculty of Computer Science and Technology',
+          ru: 'Факультет компьютерных технологий и информатики'
+        },
+        department: {
+          en: 'Department of Computer Science and Engineering',
+          ru: 'Кафедра вычислительной техники'
+        },
+        stage: {en: 'Status: Finished', ru: 'Статус: Окончено'},
       },
       website: {
         buttonTitle: {en: 'Web site', ru: 'Сайт'},

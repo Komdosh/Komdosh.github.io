@@ -10,7 +10,7 @@ import {Translation} from '../../model/Translation';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent extends LanguageWrapper {
-  menu: Array<any> = [
+  menu: Array<{name: {ru: string, en: string}, navSection: string}> = [
     {
       name: {en: 'Projects', ru: 'Проекты'},
       navSection: 'home',

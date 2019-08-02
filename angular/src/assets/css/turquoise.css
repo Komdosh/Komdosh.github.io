@@ -180,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: 700;
   padding-left: 0;
+  padding-right: 5px;
   color: #fff;
 }
 
@@ -816,7 +817,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .person {
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
   float: left;
   width: 100%;
@@ -834,6 +835,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .person .name {
   font-size: 24px;
+  text-align: center;
 }
 
 .person .position {
@@ -841,6 +843,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #c3c3c3;
   margin-bottom: 30px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 #footer {
@@ -909,6 +912,7 @@ h1, h2, h3, h4, h5, h6 {
 .social li a i {
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 
 .social li a:hover, .social li a:active, .social li a:focus {
