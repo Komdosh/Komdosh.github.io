@@ -21,6 +21,7 @@
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
     <treeState key="project">
       <selectedPath>
         <pathElement>
@@ -31,17 +32,84 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="add idea config files">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/turquoise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.6a9f5fde365a77ab7943.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.f311cbaa608fa12218d7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/SafetyStreets.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/SlaSol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/eltechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/slide_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/travellante.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.style.switcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.b74a1b538579f65831f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.5435c74a4c6123ac0b6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.1515fd09d2607ed7b43b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.465c2333d355155ec5f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.280e991c5992f8630bc9.css" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +149,14 @@
     <option name="height" value="1096" />
   </component>
   <component name="ProjectId" id="1OrNhKyyVLBkRrj4pFCV6sFwBu6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -101,18 +177,6 @@
       <recent name="C:\Users\atabakov\Documents\vhd\Komdosh.github.io\angular\src\assets\images\portfolio" />
       <recent name="C:\Users\atabakov\Documents\vhd\Komdosh.github.io\angular\src\app\components" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -163,6 +227,23 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:PlatformDev" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -190,6 +271,7 @@
       <workItem from="1563856832573" duration="586000" />
       <workItem from="1563947321740" duration="854000" />
       <workItem from="1564731875995" duration="3275000" />
+      <workItem from="1575984888682" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -331,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563857117949</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update workspace">
+      <created>1575985112083</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575985112083</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,13 +480,18 @@
     <MESSAGE value="update bundle" />
     <MESSAGE value="update info" />
     <MESSAGE value="update versioning and fix angular migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="update versioning and fix angular migration" />
+    <MESSAGE value="update workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575985089635">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575985347333">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575985089635" />
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575985347333" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575985114203">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575985114203" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
