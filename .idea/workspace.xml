@@ -71,6 +71,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -433,14 +434,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="build new angular project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575987859350">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575987928038">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987859350" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575987865633">
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987928037" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575987930025">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987865633" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987930025" />
+    <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575987985225">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987985225" />
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1575986879553">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
