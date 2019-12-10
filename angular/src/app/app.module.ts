@@ -1,7 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-
-
 import {AppComponent} from './app.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {HeaderComponent} from './components/header/header.component';
@@ -18,6 +16,7 @@ import {CommonModule} from '@angular/common';
 import {PortfolioComponent} from './components/portfolio/portfolio.component';
 import {FormsModule} from '@angular/forms';
 import {NgxImageGalleryModule} from 'ngx-image-gallery';
+import {ImageViewerModule} from 'ngx-image-viewer';
 
 
 @NgModule({
@@ -38,7 +37,7 @@ import {NgxImageGalleryModule} from 'ngx-image-gallery';
     BrowserModule,
     CommonModule,
     FormsModule,
-    NgxImageGalleryModule,
+    ImageViewerModule.forRoot()
   ],
   providers: [
     InfoService,
