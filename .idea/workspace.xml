@@ -393,6 +393,12 @@
     <MESSAGE value="update versioning and fix angular migration" />
     <option name="LAST_COMMIT_MESSAGE" value="update versioning and fix angular migration" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575985089635">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575985089635" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
