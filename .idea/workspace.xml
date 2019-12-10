@@ -32,8 +32,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="build new angular project">
       <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
@@ -205,7 +204,7 @@
       <workItem from="1563856832573" duration="586000" />
       <workItem from="1563947321740" duration="854000" />
       <workItem from="1564731875995" duration="3275000" />
-      <workItem from="1575984888682" duration="2725000" />
+      <workItem from="1575984888682" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -361,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575985538375</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="build new angular project">
+      <created>1575987863003</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575987863003</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,17 +429,18 @@
     <MESSAGE value="update versioning and fix angular migration" />
     <MESSAGE value="update workspace" />
     <MESSAGE value="update angular version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update angular version" />
+    <MESSAGE value="build new angular project" />
+    <option name="LAST_COMMIT_MESSAGE" value="build new angular project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575987859350">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987859350" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575985539532">
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575987865633">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575985539532" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987865633" />
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1575986879553">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
