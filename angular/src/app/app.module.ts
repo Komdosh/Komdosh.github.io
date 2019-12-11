@@ -15,7 +15,6 @@ import {SocialComponent} from './components/social/social.component';
 import {CommonModule} from '@angular/common';
 import {PortfolioComponent} from './components/portfolio/portfolio.component';
 import {FormsModule} from '@angular/forms';
-import {NgxImageGalleryModule} from 'ngx-image-gallery';
 import {ImageViewerModule} from 'ngx-image-viewer';
 
 
