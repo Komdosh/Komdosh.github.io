@@ -32,16 +32,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="build new angular project">
-      <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update lib links">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/services/languageHolder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/services/languageHolder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +198,7 @@
       <workItem from="1563856832573" duration="586000" />
       <workItem from="1563947321740" duration="854000" />
       <workItem from="1564731875995" duration="3275000" />
-      <workItem from="1575984888682" duration="2966000" />
+      <workItem from="1575984888682" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -368,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575987863003</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add build to repo">
+      <created>1575987928612</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1575987928612</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update lib links">
+      <created>1575988037163</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575988037163</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,17 +438,19 @@
     <MESSAGE value="update workspace" />
     <MESSAGE value="update angular version" />
     <MESSAGE value="build new angular project" />
-    <option name="LAST_COMMIT_MESSAGE" value="build new angular project" />
+    <MESSAGE value="add build to repo" />
+    <MESSAGE value="update lib links" />
+    <option name="LAST_COMMIT_MESSAGE" value="update lib links" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1575987928038">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1576069432222">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987928037" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575987930025">
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576069432222" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575988042764">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987930025" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575988042764" />
     <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575987985225">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
