@@ -13,7 +13,14 @@ export class SkillsComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Skills', ru: 'Навыки'};
 
-  skills: Array<any> = [
+  skills: Array<{
+    name: string,
+    abouts: Array<{
+      text: Translation,
+      link?: string,
+      buttonTitle?: string,
+    }>
+  }> = [
     {
       name: 'Android',
       abouts: [
@@ -24,14 +31,14 @@ export class SkillsComponent extends LanguageWrapper {
         },
         {
           text: {
-            en: 'Participated in development of new social app Travellante',
-            ru: 'Участвовал в разработке социального приложения Travellante'
+            en: 'What I used for develop: Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation',
+            ru: 'Что я использовал в моих разработках:Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation'
           },
         },
         {
           text: {
-            en: 'Develop small apps just for fun',
-            ru: 'Разрабатываю небольшие приложения просто ради развлечения'
+            en: 'Android it is kind of hobby for me, I develop small apps just for fun',
+            ru: 'Android для меня выступает в качестве хобби, я разрабатываю небольшие приложения просто ради развлечения'
           },
         },
       ]
@@ -40,7 +47,7 @@ export class SkillsComponent extends LanguageWrapper {
       name: 'SQL',
       abouts: [
         {
-          text: {en: 'Working with PostgreSQL, MySQL, SQLite', ru: 'Работаю PostgreSQL, MySQL, SQLite'},
+          text: {en: 'I\'m worked with PostgreSQL, MySQL, SQLite. I know what is left, right, inner, outer, anti joins; Indexes; Transactions; ACID', ru: 'Я работаю с PostgreSQL, MySQL, SQLite. Знаю что такое  left, right, inner, outer, anti joins; Индексы; Транзакции; ACID'},
         },
       ]
     },
@@ -59,15 +66,8 @@ export class SkillsComponent extends LanguageWrapper {
       name: 'REST',
       abouts: [
         {
-          text: {en: 'I Wrote some REST based servers', ru: 'Написал несколько серверов с использованием REST'},
-        },
-      ]
-    },
-    {
-      name: 'HTML+CSS',
-      abouts: [
-        {
-          text: {en: 'As you can see this site is a result of my skill', ru: 'Данный сайт должен всё рассказать об этом навыке'},
+          text: {en: 'I know what is GET, POST, PUT, DELETE, PATCH. I worked with http closely at my work. I wrote servers and clients as well. I wrote API servers',
+            ru: 'Знаю что такое GET, POST, PUT, DELETE, PATCH. На работе близко познакомился с протоколом HTTP. Писал как сервера так и кленты. Создавал API сервера'},
         },
       ]
     },
@@ -76,8 +76,8 @@ export class SkillsComponent extends LanguageWrapper {
       abouts: [
         {
           text: {
-            en: 'As you can see this site on Github, so I know what is checkout, clone, pull, push and so on',
-            ru: 'Как вы могли заметить, этот сайт размещён на Github, так что я знаю что такое checkout, clone, pull, push и т.д.'
+            en: 'As you can see this site on Github, so I know what is checkout, clone, pull, push, rebase, merge and so on',
+            ru: 'Как вы могли заметить, этот сайт размещён на Github, так что я знаю что такое checkout, clone, pull, rebase, merge, push и т.д.'
           },
         },
       ]
@@ -87,7 +87,7 @@ export class SkillsComponent extends LanguageWrapper {
       abouts: [
         {
           text: {
-            en: 'Use Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion and know many others',
+            en: 'Use Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion and used many others',
             ru: 'Использую Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion и также пользовался многими другими'
           },
         },
@@ -98,8 +98,8 @@ export class SkillsComponent extends LanguageWrapper {
       abouts: [
         {
           text: {
-            en: 'Use Mac OS X, Windows, Ubuntu Linux, sometimes use another dists like Gentoo, Kali, Debian and so on.',
-            ru: 'Использую Mac OS X, Windows, Ubuntu Linux, пользовался и другими дистрибутивами такими как Gentoo, Kali, Debian.'
+            en: 'Use Mac OS X, Windows, Ubuntu Linux, sometimes use another dists like CentOS, Debian and so on',
+            ru: 'Использую Mac OS X, Windows, Ubuntu Linux, пользовался и другими дистрибутивами такими как CentOS, Debian и др.'
           },
         },
       ]
@@ -120,8 +120,8 @@ export class SkillsComponent extends LanguageWrapper {
       abouts: [
         {
           text: {
-            en: 'I know what is Scrum, Kanban, because have a deal with it',
-            ru: 'Знаю что такое Scrum, Kanban, потому что уже работал по этим принципам'
+            en: 'I know what is Scrum, Kanban, XP, Retro, Planning, ScrumPoker and so on',
+            ru: 'Знаю что такое Scrum, Kanban, XP, Retro, Planning, ScrumPoker и т.д.'
           },
         },
       ]
@@ -131,8 +131,8 @@ export class SkillsComponent extends LanguageWrapper {
       abouts: [
         {
           text: {
-            en: 'Configure and worked with: Sonar qube, Jetty, Tomcat, Docker, Heroku, Apache POI',
-            ru: 'Конфигурировал и работал с: Sonar qube, Jetty, Tomcat, Docker, Heroku, Apache POI'
+            en: 'I deployed and worked with: SonarQube, Jetty, Tomcat, Docker, Heroku, Apache POI',
+            ru: 'Конфигурировал и работал с: SonarQube, Jetty, Tomcat, Docker, Heroku, Apache POI'
           },
         },
       ]

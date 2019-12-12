@@ -32,84 +32,36 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="fix portfolio height">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update lib versions">
+      <change afterPath="$PROJECT_DIR$/angular/src/assets/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/assets/images/portfolio/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/assets/images/portfolio/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/assets/images/publication.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.ac0fdcfab551549c36be.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/green.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/simple-line-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/Read Me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo-files/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/selection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/icomoon/icomoon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/SafetyStreets.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/SlaSol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/eltechat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/icons/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/portfolio/portfolio.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/SafetyStreets.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/eltechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/portfolio/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/portfolio/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/travellante.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/portfolio/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/slide_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/travellante.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.style.switcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.bbbd287a8ecbdc9ba6c1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.10720b7a16b5399d8c9f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.130ac109ea572e23ba97.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.6b16ffb15ff3f7ed620f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.280e991c5992f8630bc9.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +119,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541850383703" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular/src/assets/images/portfolio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -273,7 +225,7 @@
       <workItem from="1563856832573" duration="586000" />
       <workItem from="1563947321740" duration="854000" />
       <workItem from="1564731875995" duration="3275000" />
-      <workItem from="1575984888682" duration="6669000" />
+      <workItem from="1575984888682" duration="16349000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -457,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576069542850</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update lib versions">
+      <created>1576072487259</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576072487259</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +457,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="remove js-pq from this repo" />
     <MESSAGE value="add portfolio component" />
     <MESSAGE value="update prod build" />
     <MESSAGE value="add portfolio to menu" />
@@ -523,25 +481,46 @@
     <MESSAGE value="add build to repo" />
     <MESSAGE value="update lib links" />
     <MESSAGE value="fix portfolio height" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix portfolio height" />
+    <MESSAGE value="update lib versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="update lib versions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1576072455089">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1576145380665">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576072455089" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1576069544228">
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576145380664" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1576142347509">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576069544228" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576142347509" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1576142347508">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="292" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576142347508" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1576142347508">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="292" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576142347508" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1576142347508">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="292" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576142347508" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1576072549641">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576072549641" />
     <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575987985225">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1575987985225" />
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1576072387652">
+    <state x="2575" y="277" width="609" height="526" key="find.popup" timestamp="1576142140227">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576072387652" />
+    <state x="2575" y="277" width="609" height="526" key="find.popup/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576142140227" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1576144988224">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576144988224" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

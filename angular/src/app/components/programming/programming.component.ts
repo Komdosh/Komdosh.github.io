@@ -16,96 +16,64 @@ export class ProgrammingComponent extends LanguageWrapper {
   programmingLangs: Array<any> = [
     [
       {
-        name: 'Java',
-        since: {en: 'Since 2014', ru: 'C 2014'},
-        sinceHarder: {en: 'Harder since April 2016', ru: 'Усерднее с апреля 2016'},
+        name: 'Kotlin',
+        since: {en: '', ru: ''},
         description: {
-          en: 'Main language for now. I deal with it in my work and write some apps for Android',
-          ru: 'Основной язык используемый в работе, а также разрабатываю приложения под Android'
+          en: 'I write code for server side and Anrdoid applications',
+          ru: 'Пишу код для серверных и Android приложений на нём'
         },
         colorNum: '1'
       },
       {
         name: 'C++',
-        since: {en: 'Since September 2015', ru: 'С сентября 2015'},
+        since: {en: '', ru: ''},
         description: {
-          en: 'I write on this language about one year for studying, I really like this language',
-          ru: 'Использовался больше для учёбы, но в целом понравился больше всего'
+          en: 'It is required for my scientific researches in multithreading environments',
+          ru: 'Данный язык необходим для моих научных исследований в области многопоточных программ'
         },
         colorNum: '2'
       },
+    ],
+    [
       {
-        name: 'Assembler',
-        since: {en: 'Since January 2016', ru: 'С Января 2016'},
+        name: 'Java',
+        since: {en: '', ru: ''},
         description: {
-          en: 'Wrote a few simple programs. It\'s useful for understanding, how does programs work inside',
-          ru: 'Написал несколько простых программ. Полезный опыт, чтобы понять, как программы работают изнутри'
+          en: 'Main language for now',
+          ru: 'Основной язык используемый в работе'
         },
-        colorNum: '3',
-        fontSize: 14,
+        colorNum: '1'
+      },
+
+      {
+        name: 'JS/TS',
+        since: {en: '', ru: ''},
+        description: {
+          en: 'It is required for Angular and React frontend applications on my work',
+          ru: 'Они применяются мной для написания клиентских приложений на Angular и React'
+        },
+        colorNum: '4'
       },
     ],
     [
       {
         name: 'C',
-        since: {en: 'Since September 2014', ru: 'С сентября 2014'},
+        since: {en: '', ru: ''},
         description: {
-          en: 'Began to learning this language with my University courses. ' +
-          'I wrote a project similar with database and control system on it',
-          ru: 'С него началось моё обучение в ВУЗе, довольно не плохо его освоил'
+          en: 'For some reasons C++ sometimes is not suitable for mine researches, so clean C is used (I rewrote MPICH functions for example)',
+          ru: 'По некоторым причинам C++ не всегда подходи для моих исследований, поэтому используется чистый C (Например для переписываний функций в MPICH)'
         },
         colorNum: '3'
       },
       {
-        name: 'JS',
-        since: {en: 'Since 2009', ru: 'С 2009'},
-        sinceHarder: {en: 'Harder since June 2016', ru: 'Усерднее с июня 2016'},
-        description: {
-          en: 'The one of my first programming languages. Start with writing simple scripts for sites, ' +
-          'now I deal with it in my work',
-          ru: 'Один из первых языков, которые я освоил. Начал с написания простых скриптов для своих сайтов.' +
-          ' Сейчас имею с ним дело на работе'
-        },
-        colorNum: '4'
-      },
-      {
-        name: 'C#',
-        since: {en: 'Since September 2014', ru: 'С Сентября 2014'},
-        description: {
-          en: 'Experience at the moment is small enough. The implementation of the basic data structures and algorithms on graphs',
-          ru: 'Опыт на данный момент небольшой. Реализация основных структур данных и алгоритмов на графах'
-        },
-        colorNum: '2',
-      },
-    ],
-    [
-      {
-        name: 'Kotlin',
-        since: {en: 'Since March 2017', ru: 'С Марта 2017'},
-        description: {
-          en: 'Start learning for writing Android apps not only in Java',
-          ru: 'Начал изучать для написания приложений под Android не только на Java'
-        },
-        colorNum: '1'
-      },
-      {
         name: 'Python',
-        since: {en: 'Since February 2016', ru: 'С февраля 2016'},
+        since: {en: '', ru: ''},
         description: {
-          en: 'Want to learn something unusual language. Now I could write a simple programs on it',
-          ru: 'Хотелось научиться языку, который не похож на C'
+          en: 'It is needed for math evaluations for me, but sometimes I tried to build a neural networks',
+          ru: 'Приходит на помощь, когда мне требуется написать математическую программу, но также пробовал строить нейронные сети'
         },
         colorNum: '5',
         fontSize: 18
-      },
-      {
-        name: 'PHP',
-        since: {en: 'Since 2009', ru: 'С 2009'},
-        description: {
-          en: 'Wrote some web-sites on this language',
-          ru: 'Написал на нём штук десять разнообразных сайтов'
-        },
-        colorNum: '6',
       },
     ]
   ];

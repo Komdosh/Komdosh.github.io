@@ -12,12 +12,16 @@ import {Translation} from '../../model/Translation';
 export class HeaderComponent extends LanguageWrapper {
   menu: Array<{name: {ru: string, en: string}, navSection: string}> = [
     {
-      name: {en: 'Projects', ru: 'Проекты'},
-      navSection: 'home',
-    },
-    {
       name: {en: 'Person', ru: 'Обо мне'},
       navSection: 'about',
+    },
+    {
+      name: {en: 'Experience', ru: 'Опыт'},
+      navSection: 'experience',
+    },
+    {
+      name: {en: 'Github', ru: 'Github'},
+      navSection: 'home',
     },
     {
       name: {en: 'Education', ru: 'Образование'},
@@ -34,10 +38,6 @@ export class HeaderComponent extends LanguageWrapper {
     {
       name: {en: 'Skills', ru: 'Навыки'},
       navSection: 'skills',
-    },
-    {
-      name: {en: 'Experience', ru: 'Опыт'},
-      navSection: 'experience',
     }
   ];
   nickname: string;

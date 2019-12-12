@@ -1,4 +1,4 @@
-<header role="banner" id="fh5co-header">
+<header role="banner" id="fh5co-header" class="navbar-fixed-top fh5co-animated slideInDown">
   <div class="container">
     <nav class="navbar navbar-default">
       <div class="navbar-header">
@@ -7,7 +7,7 @@
            aria-expanded="false" aria-controls="navbar"><i></i></a>
         <a class="navbar-brand" href="/">Komdosh</a>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+      <div id="navbar" class="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li *ngFor="let item of menu"><a href="#" [attr.data-nav-section]="item.navSection"><span>{{item.name[language]}}</span></a>
           </li>

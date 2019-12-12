@@ -442,7 +442,7 @@
     burgerMenu();
     owlCrouselFeatureSlide();
     clickMenu();
-    windowScroll();
+    // windowScroll();
     navigationSection();
 
     aboutWayPoint();

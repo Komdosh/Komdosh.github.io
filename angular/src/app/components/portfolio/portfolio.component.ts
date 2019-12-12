@@ -25,7 +25,7 @@ export class PortfolioComponent extends LanguageWrapper {
   }
 
   createImagesList() {
-    const imgNums = [10, 9, 7, 8, 6, 2, 1, 3, 4, 5];
+    const imgNums = [11,  10, 9, 7, 8, 6, 2, 3, 12, 4];
     const imgLength = imgNums.length;
 
     for (let i = 0; i < imgLength; ++i) {
