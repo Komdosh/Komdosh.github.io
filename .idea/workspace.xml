@@ -32,10 +32,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular version&#10;add slasol privacy policy">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +196,7 @@
       <workItem from="1563947321740" duration="854000" />
       <workItem from="1564731875995" duration="3275000" />
       <workItem from="1575984888682" duration="18073000" />
-      <workItem from="1579456059277" duration="496000" />
+      <workItem from="1579456059277" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -402,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576146559907</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update angular version">
+      <created>1579456707793</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1579456707793</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +466,6 @@
     <MESSAGE value="update info" />
     <MESSAGE value="update versioning and fix angular migration" />
     <MESSAGE value="update workspace" />
-    <MESSAGE value="update angular version" />
     <MESSAGE value="build new angular project" />
     <MESSAGE value="add build to repo" />
     <MESSAGE value="update lib links" />
@@ -468,13 +473,14 @@
     <MESSAGE value="update lib versions" />
     <MESSAGE value="update content" />
     <MESSAGE value="update angular version&#10;add slasol privacy policy" />
-    <option name="LAST_COMMIT_MESSAGE" value="update angular version&#10;add slasol privacy policy" />
+    <MESSAGE value="update angular version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update angular version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1576146555252">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1579456818296">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576146555252" />
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456818296" />
     <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1579456620234">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -491,10 +497,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="292" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456620233" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1576146561585">
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1579456709028">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576146561585" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456709028" />
     <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579456070828">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>

@@ -22,9 +22,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
     ru: 'Родился 12 мая 1996 года в Санкт-Петербурге. Мои интересы: Программирование, обучение, личное развитие, игра на гитаре и прогулки на свежем воздухе.'
   };
   aboutSecondPart: Translation = {
-    en: 'At the moment I am a full-time Master student. Combining work with study.<br/>' +
-      '<br/>' +
-      'I am interested in questions of artificial intelligence.<br/>' +
+    en: 'I am interested in questions of artificial intelligence.<br/>' +
       'As a graduation project for bachelor degree, an algorithm to control the perception of an intelligent agent using the method of forward iterative planning was developed.<br/>' +
       '<br/>' +
       'I am also interested in issues related to multithreading. <br/>' +
@@ -40,9 +38,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
       '<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol">https://play.google.com/store/apps/details?id=com.komdosh.slasol</a><br/>' +
       '<br/>' +
       'By nature, I am an early bird, I can start working at 5-6 am and till late in the evening, depending on workload and terms.',
-    ru: 'В данный момент являюсь очным студентом магистратуры. Совмещаю работу с учёбой.<br/>' +
-      '<br/>' +
-      'Интересны вопросы искусственного интеллекта.<br/>' +
+    ru: 'Интересны вопросы искусственного интеллекта.<br/>' +
       'В качестве дипломного проекта в бакалавриате был разработан алгоритм управления восприятием интеллектуального агента с использованием метода опережающего итеративного планирования.<br/>' +
       '<br/>' +
       'Также интересны вопросы связанные с многопоточностью. Одно из моих исследований связано со структурами данных с ослабленной семантикой выполнения операций. В результате данного исследования был разработан алгоритм оптимизации выполнения операций для структуры Multiqueues:<br/>' +
