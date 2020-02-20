@@ -7,6 +7,7 @@
     <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
     <option name="INSPECTIONS_BUILD_TYPE_IDS" />
     <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
     <option name="COVERAGE_SETTINGS" />
     <option name="TEST_STATUS_ENABLED" value="true" />
     <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
@@ -32,9 +33,11 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular version">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="remove wrong bio row">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -196,7 +199,8 @@
       <workItem from="1563947321740" duration="854000" />
       <workItem from="1564731875995" duration="3275000" />
       <workItem from="1575984888682" duration="18073000" />
-      <workItem from="1579456059277" duration="753000" />
+      <workItem from="1579456059277" duration="1794000" />
+      <workItem from="1582213552229" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -408,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579456707793</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="remove wrong bio row">
+      <created>1579456876528</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579456876528</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +460,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add portfolio to menu" />
     <MESSAGE value="add builded main script" />
     <MESSAGE value="change main js hash to reload" />
     <MESSAGE value="update src of images for portfolio" />
@@ -474,37 +484,38 @@
     <MESSAGE value="update content" />
     <MESSAGE value="update angular version&#10;add slasol privacy policy" />
     <MESSAGE value="update angular version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update angular version" />
+    <MESSAGE value="remove wrong bio row" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove wrong bio row" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1579456818296">
+    <state x="2445" y="136" key="CommitChangelistDialog2" timestamp="1579456875846">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456818296" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1579456620234">
+    <state x="2445" y="136" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456875846" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1579511075293">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456620234" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1579456620233">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579511075293" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1579511075293">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456620233" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1579456620233">
+    <state width="1877" height="292" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579511075293" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1579511075293">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456620233" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1579456620233">
+    <state width="1877" height="292" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579511075293" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1579511075293">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456620233" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1579456709028">
+    <state width="1877" height="292" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579511075293" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1579456877588">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456709028" />
-    <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579456070828">
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456877588" />
+    <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582213555933">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1579456070828" />
+    <state x="2689" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1582213555933" />
     <state x="2575" y="277" width="609" height="526" key="find.popup" timestamp="1576142140227">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -513,6 +524,17 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1576144988224" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
