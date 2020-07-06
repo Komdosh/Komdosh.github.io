@@ -717,8 +717,14 @@ var ExperienceComponent = /** @class */ (function (_super) {
     ExperienceComponent.prototype.replaceNewLineWithHtmlBr = function (text) {
         return text.replace(/\n/g, '<br />');
     };
+    ExperienceComponent.prototype.trackByFn = function (index, item) {
+        if (item == null) {
+            return null;
+        }
+        return item.name;
+    };
     ExperienceComponent.ɵfac = function ExperienceComponent_Factory(t) { return new (t || ExperienceComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_infoService__WEBPACK_IMPORTED_MODULE_3__["InfoService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_languageHolder__WEBPACK_IMPORTED_MODULE_2__["LanguageBroadcaster"])); };
-    ExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceComponent, selectors: [["app-experience"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 8, vars: 2, consts: [["id", "fh5co-press", "data-section", "experience"], [1, "container"], [1, "row"], [1, "col-md-12", "section-heading", "text-center"], [1, "single-animate", "animate-press-1", "en-lang"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "col-md-6"], [1, "fh5co-press-item", "to-animate"], [1, "fh5co-press-text"], [1, "h2", "fh5co-press-title"], [1, "fh5co-border"], [2, "white-space", "nowrap"], [3, "innerHTML"], [1, "btn", "btn-primary", "btn-sm", 2, "color", "white", 3, "href"]], template: function ExperienceComponent_Template(rf, ctx) { if (rf & 1) {
+    ExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceComponent, selectors: [["app-experience"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 8, vars: 3, consts: [["id", "fh5co-press", "data-section", "experience"], [1, "container"], [1, "row"], [1, "col-md-12", "section-heading", "text-center"], [1, "single-animate", "animate-press-1", "en-lang"], ["class", "col-md-6", 4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "col-md-6"], [1, "fh5co-press-item", "to-animate"], [1, "fh5co-press-text"], [1, "h2", "fh5co-press-title"], [1, "fh5co-border"], [2, "white-space", "nowrap"], [3, "innerHTML"], [1, "btn", "btn-primary", "btn-sm", 2, "color", "white", 3, "href"]], template: function ExperienceComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -737,7 +743,7 @@ var ExperienceComponent = /** @class */ (function (_super) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.sectionName[ctx.language]);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.companies.slice().reverse());
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.companies.slice().reverse())("ngForTrackBy", ctx.trackByFn);
         } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZXhwZXJpZW5jZS9leHBlcmllbmNlLmNvbXBvbmVudC5jc3MifQ== */"] });
     return ExperienceComponent;
 }(_languageWrapper__WEBPACK_IMPORTED_MODULE_1__["LanguageWrapper"]));
@@ -1268,9 +1274,6 @@ var __extends = (undefined && undefined.__extends) || (function () {
 
 
 
-function ProgrammingComponent_div_7_div_1_br_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
-} }
 var _c0 = function (a1) { return { "color": "white", "font-size": a1 }; };
 function ProgrammingComponent_div_7_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
@@ -1279,13 +1282,8 @@ function ProgrammingComponent_div_7_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ProgrammingComponent_div_7_div_1_br_6_Template, 1, 0, "br", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1294,21 +1292,15 @@ function ProgrammingComponent_div_7_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("icon colored-" + pl_r3.colorNum);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](8, _c0, (pl_r3.fontSize == null ? 24 : pl_r3.fontSize) + "pt"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](5, _c0, (pl_r3.fontSize == null ? 24 : pl_r3.fontSize) + "pt"));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](pl_r3.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", pl_r3.since[ctx_r2.language], " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", pl_r3.sinceHarder != null);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](pl_r3.sinceHarder != null ? pl_r3.sinceHarder[ctx_r2.language] : "");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](pl_r3.description[ctx_r2.language]);
 } }
 function ProgrammingComponent_div_7_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProgrammingComponent_div_7_div_1_Template, 10, 10, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProgrammingComponent_div_7_div_1_Template, 6, 7, "div", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     var pls_r1 = ctx.$implicit;
@@ -1326,56 +1318,55 @@ var ProgrammingComponent = /** @class */ (function (_super) {
             [
                 {
                     name: 'Kotlin',
-                    since: { en: '', ru: '' },
                     description: {
                         en: 'I write code for server side and Anrdoid applications',
                         ru: 'Пишу код для серверных и Android приложений на нём'
                     },
-                    colorNum: '1'
+                    colorNum: '1',
+                    fontSize: 24
                 },
                 {
                     name: 'C++',
-                    since: { en: '', ru: '' },
                     description: {
                         en: 'It is required for my scientific researches in multithreading environments',
                         ru: 'Данный язык необходим для моих научных исследований в области многопоточных программ'
                     },
-                    colorNum: '2'
+                    colorNum: '2',
+                    fontSize: 24
                 },
             ],
             [
                 {
                     name: 'Java',
-                    since: { en: '', ru: '' },
                     description: {
                         en: 'Main language for now',
                         ru: 'Основной язык используемый в работе'
                     },
-                    colorNum: '1'
+                    colorNum: '1',
+                    fontSize: 24
                 },
                 {
                     name: 'JS/TS',
-                    since: { en: '', ru: '' },
                     description: {
                         en: 'It is required for Angular and React frontend applications on my work',
                         ru: 'Они применяются мной для написания клиентских приложений на Angular и React'
                     },
-                    colorNum: '4'
+                    colorNum: '4',
+                    fontSize: 24
                 },
             ],
             [
                 {
                     name: 'C',
-                    since: { en: '', ru: '' },
                     description: {
-                        en: 'For some reasons C++ sometimes is not suitable for mine researches, so clean C is used (I rewrote MPICH functions for example)',
-                        ru: 'По некоторым причинам C++ не всегда подходи для моих исследований, поэтому используется чистый C (Например для переписываний функций в MPICH)'
+                        en: 'For some reasons C++ is not always suitable for mine researches, so clean C is used (I rewrote MPICH functions for example)',
+                        ru: 'По некоторым причинам C++ не всегда подходит для моих исследований, поэтому используется чистый C (Например для переписываний функций в MPICH)'
                     },
-                    colorNum: '3'
+                    colorNum: '3',
+                    fontSize: 24
                 },
                 {
                     name: 'Python',
-                    since: { en: '', ru: '' },
                     description: {
                         en: 'It is needed for math evaluations for me, but sometimes I tried to build a neural networks',
                         ru: 'Приходит на помощь, когда мне требуется написать математическую программу, но также пробовал строить нейронные сети'
@@ -1387,8 +1378,14 @@ var ProgrammingComponent = /** @class */ (function (_super) {
         ];
         return _this;
     }
+    ProgrammingComponent.prototype.trackByFn = function (index, item) {
+        if (item == null) {
+            return null;
+        }
+        return item.name;
+    };
     ProgrammingComponent.ɵfac = function ProgrammingComponent_Factory(t) { return new (t || ProgrammingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_infoService__WEBPACK_IMPORTED_MODULE_3__["InfoService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_languageHolder__WEBPACK_IMPORTED_MODULE_2__["LanguageBroadcaster"])); };
-    ProgrammingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProgrammingComponent, selectors: [["app-programming"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 8, vars: 2, consts: [["id", "fh5co-our-services", "data-section", "programming"], [1, "container"], [1, "row", "row-bottom-padded-sm"], [1, "col-md-12", "section-heading", "text-center"], [1, "to-animate"], [1, "row"], ["class", "col-md-4", 4, "ngFor", "ngForOf"], [1, "col-md-4"], ["class", "box to-animate", 4, "ngFor", "ngForOf"], [1, "box", "to-animate"], [3, "ngStyle"], [4, "ngIf"]], template: function ProgrammingComponent_Template(rf, ctx) { if (rf & 1) {
+    ProgrammingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProgrammingComponent, selectors: [["app-programming"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 8, vars: 2, consts: [["id", "fh5co-our-services", "data-section", "programming"], [1, "container"], [1, "row", "row-bottom-padded-sm"], [1, "col-md-12", "section-heading", "text-center"], [1, "to-animate"], [1, "row"], ["class", "col-md-4", 4, "ngFor", "ngForOf"], [1, "col-md-4"], ["class", "box to-animate", 4, "ngFor", "ngForOf"], [1, "box", "to-animate"], [3, "ngStyle"]], template: function ProgrammingComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1408,7 +1405,7 @@ var ProgrammingComponent = /** @class */ (function (_super) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.sectionName[ctx.language]);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.programmingLangs);
-        } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvZ3JhbW1pbmcvcHJvZ3JhbW1pbmcuY29tcG9uZW50LmNzcyJ9 */"] });
+        } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgStyle"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvZ3JhbW1pbmcvcHJvZ3JhbW1pbmcuY29tcG9uZW50LmNzcyJ9 */"] });
     return ProgrammingComponent;
 }(_languageWrapper__WEBPACK_IMPORTED_MODULE_1__["LanguageWrapper"]));
 
@@ -1562,8 +1559,14 @@ var ProjectSliderComponent = /** @class */ (function (_super) {
         ];
         return _this;
     }
+    ProjectSliderComponent.prototype.trackByFn = function (index, item) {
+        if (item == null) {
+            return null;
+        }
+        return item.name;
+    };
     ProjectSliderComponent.ɵfac = function ProjectSliderComponent_Factory(t) { return new (t || ProjectSliderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_infoService__WEBPACK_IMPORTED_MODULE_3__["InfoService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_languageHolder__WEBPACK_IMPORTED_MODULE_2__["LanguageBroadcaster"])); };
-    ProjectSliderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectSliderComponent, selectors: [["app-project-slider"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 3, vars: 1, consts: [["id", "slider", "data-section", "home"], [1, "owl-carousel", "owl-carousel-fullwidth"], ["class", "item", 3, "ngStyle", 4, "ngFor", "ngForOf"], [1, "item", 3, "ngStyle"], [1, "container", 2, "position", "relative"], [1, "row"], [1, "col-md-7", "col-sm-7"], [1, "fh5co-owl-text-wrap"], [1, "fh5co-owl-text"], [1, "fh5co-lead", "to-animate"], [1, "fh5co-sub-lead", "to-animate"], ["class", "fh5co-sub-lead to-animate", 4, "ngIf"], [1, "to-animate-2"], ["target", "_blank", 1, "btn", "btn-primary", "btn-lg", 3, "href"], [1, "col-md-5", "col-md-push-1", "col-sm-4", "col-sm-push-1", "android-image"], [1, "android", "to-animate-2"], ["alt", "", 3, "src"]], template: function ProjectSliderComponent_Template(rf, ctx) { if (rf & 1) {
+    ProjectSliderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectSliderComponent, selectors: [["app-project-slider"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 3, vars: 2, consts: [["id", "slider", "data-section", "home"], [1, "owl-carousel", "owl-carousel-fullwidth"], ["class", "item", 3, "ngStyle", 4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "item", 3, "ngStyle"], [1, "container", 2, "position", "relative"], [1, "row"], [1, "col-md-7", "col-sm-7"], [1, "fh5co-owl-text-wrap"], [1, "fh5co-owl-text"], [1, "fh5co-lead", "to-animate"], [1, "fh5co-sub-lead", "to-animate"], ["class", "fh5co-sub-lead to-animate", 4, "ngIf"], [1, "to-animate-2"], ["target", "_blank", 1, "btn", "btn-primary", "btn-lg", 3, "href"], [1, "col-md-5", "col-md-push-1", "col-sm-4", "col-sm-push-1", "android-image"], [1, "android", "to-animate-2"], ["alt", "", 3, "src"]], template: function ProjectSliderComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ProjectSliderComponent_div_2_Template, 17, 7, "div", 2);
@@ -1571,7 +1574,7 @@ var ProjectSliderComponent = /** @class */ (function (_super) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         } if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projects);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projects)("ngForTrackBy", ctx.trackByFn);
         } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdFNsaWRlci9wcm9qZWN0U2xpZGVyLmNvbXBvbmVudC5jc3MifQ== */"] });
     return ProjectSliderComponent;
 }(_languageWrapper__WEBPACK_IMPORTED_MODULE_1__["LanguageWrapper"]));
@@ -1649,9 +1652,9 @@ function SkillsComponent_div_7_p_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", about_r3.text[ctx_r2.language], " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", about_r3.link != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", about_r3.link);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", about_r3.link != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", about_r3.link);
 } }
 function SkillsComponent_div_7_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
@@ -1798,8 +1801,14 @@ var SkillsComponent = /** @class */ (function (_super) {
         ];
         return _this;
     }
+    SkillsComponent.prototype.trackByFn = function (index, item) {
+        if (item == null) {
+            return null;
+        }
+        return item.name;
+    };
     SkillsComponent.ɵfac = function SkillsComponent_Factory(t) { return new (t || SkillsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_infoService__WEBPACK_IMPORTED_MODULE_3__["InfoService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_languageHolder__WEBPACK_IMPORTED_MODULE_2__["LanguageBroadcaster"])); };
-    SkillsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkillsComponent, selectors: [["app-skills"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 8, vars: 2, consts: [["id", "fh5co-features", "data-section", "skills"], [1, "container"], [1, "row"], [1, "col-md-12", "section-heading", "text-center"], [1, "single-animate", "animate-features-1"], [1, "row", "row-bottom-padded-sm"], ["class", "col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate", 4, "ngFor", "ngForOf"], [1, "col-md-4", "col-sm-6", "col-xs-6", "col-xxs-12", "fh5co-service", "to-animate"], [1, "fh5co-icon"], [1, "fh5co-desc"], [4, "ngFor", "ngForOf"], [1, "clearfix", "visible-sm-block", "visible-xs-block"], [4, "ngIf"], ["target", "_blank", "class", "btn btn-primary btn-sm", 3, "href", 4, "ngIf"], ["target", "_blank", 1, "btn", "btn-primary", "btn-sm", 3, "href"]], template: function SkillsComponent_Template(rf, ctx) { if (rf & 1) {
+    SkillsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkillsComponent, selectors: [["app-skills"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 8, vars: 3, consts: [["id", "fh5co-features", "data-section", "skills"], [1, "container"], [1, "row"], [1, "col-md-12", "section-heading", "text-center"], [1, "single-animate", "animate-features-1"], [1, "row", "row-bottom-padded-sm"], ["class", "col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate", 4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "col-md-4", "col-sm-6", "col-xs-6", "col-xxs-12", "fh5co-service", "to-animate"], [1, "fh5co-icon"], [1, "fh5co-desc"], [4, "ngFor", "ngForOf"], [1, "clearfix", "visible-sm-block", "visible-xs-block"], [4, "ngIf"], ["target", "_blank", "class", "btn btn-primary btn-sm", 3, "href", 4, "ngIf"], ["target", "_blank", 1, "btn", "btn-primary", "btn-sm", 3, "href"]], template: function SkillsComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1818,7 +1827,7 @@ var SkillsComponent = /** @class */ (function (_super) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.sectionName[ctx.language]);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.skills);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.skills)("ngForTrackBy", ctx.trackByFn);
         } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuY3NzIn0= */"] });
     return SkillsComponent;
 }(_languageWrapper__WEBPACK_IMPORTED_MODULE_1__["LanguageWrapper"]));

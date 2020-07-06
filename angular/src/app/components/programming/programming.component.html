@@ -12,8 +12,6 @@
             <span
               [ngStyle]="{'color':'white', 'font-size': (pl.fontSize==null?24:pl.fontSize)+'pt'}">{{pl.name}}</span>
           </div>
-          <h3>{{pl.since[language]}}
-            <br *ngIf="pl.sinceHarder!=null"/>{{pl.sinceHarder != null ? pl.sinceHarder[language]:''}}</h3>
           <p>{{pl.description[language]}}</p>
         </div>
       </div>

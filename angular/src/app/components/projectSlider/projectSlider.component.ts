@@ -58,5 +58,12 @@ export class ProjectSliderComponent extends LanguageWrapper {
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
   }
+
+  trackByFn(index: number, item: ProjectItem){
+    if(item == null){
+      return null
+    }
+    return item.name
+  }
 }
 

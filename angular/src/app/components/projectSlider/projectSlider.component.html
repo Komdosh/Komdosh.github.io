@@ -1,6 +1,6 @@
 <div id="slider" data-section="home">
   <div class="owl-carousel owl-carousel-fullwidth">
-    <div class="item" *ngFor="let project of projects" [ngStyle]="project.style">
+    <div class="item" *ngFor="let project of projects; trackBy: trackByFn" [ngStyle]="project.style">
       <div class="container" style="position: relative;">
         <div class="row">
           <div class="col-md-7 col-sm-7">

@@ -4,6 +4,13 @@ import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
 
+type Company = {
+  name: string,
+  position: { name: Translation, since: Translation, until: Translation },
+  description: Translation,
+  website: { buttonTitle: Translation, link: Translation }
+};
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
@@ -12,12 +19,7 @@ import {Translation} from '../../model/Translation';
 export class ExperienceComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Experience', ru: 'Опыт'};
-  companies: Array<{
-    name: string,
-    position: { name: Translation, since: Translation, until: Translation },
-    description: Translation,
-    website: { buttonTitle: Translation, link: Translation }
-  }> = [
+  companies: Array<Company> = [
     {
       name: 'Siemens',
       position: {
@@ -287,5 +289,12 @@ export class ExperienceComponent extends LanguageWrapper {
 
   replaceNewLineWithHtmlBr(text: string) {
     return text.replace(/\n/g, '<br />')
+  }
+
+  trackByFn(index: number, item: Company){
+    if(item == null){
+      return null
+    }
+    return item.name
   }
 }

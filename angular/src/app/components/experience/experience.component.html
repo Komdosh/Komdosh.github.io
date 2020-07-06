@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6" *ngFor="let company of companies.slice().reverse()">
+      <div class="col-md-6" *ngFor="let company of companies.slice().reverse(); trackBy: trackByFn">
         <div class="fh5co-press-item to-animate">
           <div class="fh5co-press-text">
             <h3 class="h2 fh5co-press-title">{{company.name}}<span class="fh5co-border"></span></h3>

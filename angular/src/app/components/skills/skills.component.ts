@@ -4,6 +4,15 @@ import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
 
+type Skill = {
+  name: string,
+  abouts: Array<{
+    text: Translation,
+    link?: string,
+    buttonTitle?: string,
+  }>
+};
+
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
@@ -13,14 +22,7 @@ export class SkillsComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Skills', ru: 'Навыки'};
 
-  skills: Array<{
-    name: string,
-    abouts: Array<{
-      text: Translation,
-      link?: string,
-      buttonTitle?: string,
-    }>
-  }> = [
+  skills: Array<Skill> = [
     {
       name: 'Android',
       abouts: [
@@ -141,6 +143,13 @@ export class SkillsComponent extends LanguageWrapper {
 
   constructor(private infoService: InfoService, private languageBroadcaster: LanguageBroadcaster) {
     super(languageBroadcaster);
+  }
+
+  trackByFn(index: number, item: Skill){
+    if(item == null){
+      return null
+    }
+    return item.name
   }
 }
 
