@@ -6,7 +6,7 @@ import {Translation} from '../../model/Translation';
 
 type Education = {
   universityName: Translation,
-  degree: { faculty: Translation, department: Translation, stage: Translation },
+  degree: { faculty: Translation, department: Translation },
   website: { buttonTitle: Translation, link: Translation }
 };
 
@@ -34,7 +34,6 @@ export class EducationComponent extends LanguageWrapper {
           en: 'Department of Computer Science and Engineering',
           ru: 'Кафедра вычислительной техники'
         },
-        stage: {en: 'Status: 2 course', ru: 'Статус: 2 курс'},
       },
       website: {
         buttonTitle: {en: 'Web site', ru: 'Сайт'},
@@ -55,7 +54,6 @@ export class EducationComponent extends LanguageWrapper {
           en: 'Department of Computer Science and Engineering',
           ru: 'Кафедра вычислительной техники'
         },
-        stage: {en: 'Status: Finished', ru: 'Статус: Окончено'},
       },
       website: {
         buttonTitle: {en: 'Web site', ru: 'Сайт'},

@@ -145,8 +145,8 @@ export class ExperienceComponent extends LanguageWrapper {
           'Aluna Platform is designed and implemented by BIARUM (see below), but Aluna Health is registered in Boston, USA.\n' +
           '\n' +
           'Core Technology Stack:\n' +
-          'Java 13+\n' +
-          'Angular 9+\n' +
+          'Java 14+\n' +
+          'Angular 10+\n' +
           'Spring Boot 2 (Data, Security and so on)\n' +
           'Gradle (Kotlin DSL)\n' +
           'PostgreSQL\n' +
@@ -182,8 +182,8 @@ export class ExperienceComponent extends LanguageWrapper {
           'Однако этот проект принадлежит Aluna Health которая зарегистрирована в Boston, USA.\n' +
           '\n' +
           'Основной стек технологий:\n' +
-          'Java 13+\n' +
-          'Angular 9+\n' +
+          'Java 14+\n' +
+          'Angular 10+\n' +
           'Spring Boot 2 (Data, Security and so on)\n' +
           'Gradle (Kotlin DSL)\n' +
           'PostgreSQL\n' +
@@ -227,7 +227,7 @@ export class ExperienceComponent extends LanguageWrapper {
       position: {
         name: {en: 'Position: Remote Full-Stack Developer', ru: 'Позиция: Remote Full-Stack Developer'},
         since: {en: 'Since: may 2019', ru: 'C: мая 2019'},
-        until: {en: 'Until: Now', ru: 'По: настоящее время'},
+        until: {en: 'Until: February 2020', ru: 'По: Февраль 2020'},
       },
       description: {
         en: 'Remote worker under BIARUM (see below).\n' +
