@@ -73,24 +73,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="remove wrong bio row">
-      <change afterPath="$PROJECT_DIR$/angular/tsconfig.base.json" afterDir="false" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/education/education.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/education/education.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.8d4e96067a777e1711ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.56fe5042fbbd30f1e140.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.f618c4cc4b1262d11ca7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.acc768ff1f1e77b1bb14.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.280e991c5992f8630bc9.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +226,7 @@
       <workItem from="1575984888682" duration="18073000" />
       <workItem from="1579456059277" duration="1794000" />
       <workItem from="1582213552229" duration="249000" />
-      <workItem from="1594033264867" duration="712000" />
+      <workItem from="1594033264867" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -461,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579456876528</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update angular">
+      <created>1594034248478</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1594034248478</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +492,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add builded main script" />
     <MESSAGE value="change main js hash to reload" />
     <MESSAGE value="update src of images for portfolio" />
     <MESSAGE value="add images to builded assets" />
@@ -526,9 +516,18 @@
     <MESSAGE value="update angular version&#10;add slasol privacy policy" />
     <MESSAGE value="update angular version" />
     <MESSAGE value="remove wrong bio row" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove wrong bio row" />
+    <MESSAGE value="update angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="update angular" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1594034249799">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1594034249799" />
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1594033872540">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1594033872540" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1594033392467">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
