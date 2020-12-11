@@ -33,8 +33,10 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="update angular">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="add dist info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +206,8 @@
       <workItem from="1582213552229" duration="249000" />
       <workItem from="1594033264867" duration="2613000" />
       <workItem from="1603181991891" duration="4117000" />
+      <workItem from="1603363465693" duration="1029000" />
+      <workItem from="1607669897020" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -464,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603213756653</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add dist info">
+      <created>1603363484732</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603363484732</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +515,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add images to builded assets" />
     <MESSAGE value="add responsive for portfolio" />
     <MESSAGE value="spelling fix" />
     <MESSAGE value="update education, fix spelling, add responsibilities" />
@@ -529,7 +539,8 @@
     <MESSAGE value="fix index page" />
     <MESSAGE value="improve ngfor performance" />
     <MESSAGE value="update angular" />
-    <option name="LAST_COMMIT_MESSAGE" value="update angular" />
+    <MESSAGE value="add dist info" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dist info" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
