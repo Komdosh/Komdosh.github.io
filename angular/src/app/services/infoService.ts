@@ -4,7 +4,7 @@ import {LinksToConnect} from '../model/LinksToConnect';
 @Injectable()
 export class InfoService {
 
-  email = 'Komdosh@yandex.ru';
+  email = 'ave.tabakov@gmail.com';
   phone = '+7-911-113-60-09';
   nickname = 'Komdosh';
 

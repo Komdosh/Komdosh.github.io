@@ -68,8 +68,10 @@ export class SkillsComponent extends LanguageWrapper {
       name: 'REST',
       abouts: [
         {
-          text: {en: 'I know what is GET, POST, PUT, DELETE, PATCH. I worked with http closely at my work. I wrote servers and clients as well. I wrote API servers',
-            ru: 'Знаю что такое GET, POST, PUT, DELETE, PATCH. На работе близко познакомился с протоколом HTTP. Писал как сервера так и кленты. Создавал API сервера'},
+          text: {
+            en: 'I know what is GET, POST, PUT, DELETE, PATCH. I worked with http closely at my work. I wrote servers and clients as well. I wrote API servers',
+            ru: 'Знаю что такое GET, POST, PUT, DELETE, PATCH. На работе близко познакомился с протоколом HTTP. Писал как сервера так и клиенты. Создавал API сервера'
+          },
         },
       ]
     },

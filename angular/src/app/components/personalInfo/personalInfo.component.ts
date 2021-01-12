@@ -15,7 +15,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
 
   name: Translation = {en: 'Andrey Tabakov', ru: 'Табаков Андрей'};
 
-  position = 'Full-Stack Engineer Kotlin/Java';
+  position = 'Software Lead Engineer';
 
   aboutFirstPart: Translation = {
     en: 'Born May 12, 1996 in Saint-Petersburg, Russia. My interests is programming, studying, self-development, guitar playing, walking.',

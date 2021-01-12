@@ -41,6 +41,10 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "index": {
+                "input": "src/index.html",
+                "output": "../index.html"
+              },
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",

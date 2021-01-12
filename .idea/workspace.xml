@@ -33,10 +33,12 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="add dist info">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.1.0): update info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/slasol_pp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/slasol_pp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.df26f7d3445c7d60edd4.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.38d3d9b91532d61b9cae.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541850383703" />
@@ -133,6 +135,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,7 +220,8 @@
       <workItem from="1594033264867" duration="2613000" />
       <workItem from="1603181991891" duration="4117000" />
       <workItem from="1603363465693" duration="1029000" />
-      <workItem from="1607669897020" duration="664000" />
+      <workItem from="1607669897020" duration="1494000" />
+      <workItem from="1610443549317" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -475,7 +489,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603363484732</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update angular">
+      <created>1607670685898</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607670685899</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update index">
+      <created>1607670804161</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607670804161</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat(2021.1.0): update info">
+      <created>1610445459808</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610445459808</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,9 +549,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add responsive for portfolio" />
-    <MESSAGE value="spelling fix" />
     <MESSAGE value="update education, fix spelling, add responsibilities" />
     <MESSAGE value="add missing compiled files" />
     <MESSAGE value="compile personal info update" />
@@ -538,9 +572,14 @@
     <MESSAGE value="remove wrong bio row" />
     <MESSAGE value="fix index page" />
     <MESSAGE value="improve ngfor performance" />
-    <MESSAGE value="update angular" />
     <MESSAGE value="add dist info" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dist info" />
+    <MESSAGE value="update angular" />
+    <MESSAGE value="update index" />
+    <MESSAGE value="feat(2021.1.0): update info" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.1.0): update info" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

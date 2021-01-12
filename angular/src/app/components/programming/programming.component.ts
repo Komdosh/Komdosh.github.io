@@ -75,10 +75,19 @@ export class ProgrammingComponent extends LanguageWrapper {
       {
         name: 'Python',
         description: {
-          en: 'It is needed for math evaluations for me, but sometimes I tried to build a neural networks',
+          en: 'It is needed for my math evaluations. Sometimes I build a neural networks on it',
           ru: 'Приходит на помощь, когда мне требуется написать математическую программу, но также пробовал строить нейронные сети'
         },
         colorNum: '5',
+        fontSize: 18
+      },
+      {
+        name: 'Go',
+        description: {
+          en: 'Handy language for microservices, I use it for my work',
+          ru: 'Полезный язык для написания микросервисов, использую в работе'
+        },
+        colorNum: '6',
         fontSize: 18
       },
     ]
