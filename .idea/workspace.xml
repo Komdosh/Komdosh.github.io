@@ -35,10 +35,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.1.0): update info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/slasol_pp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/slasol_pp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.df26f7d3445c7d60edd4.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.38d3d9b91532d61b9cae.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +77,9 @@
     </option>
     <option name="currentCommit" value="1" />
     <option name="onto" value="34d91d23c9beaa8e66945d8526e4067720b6a213" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="kxwn69ax" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -135,17 +136,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,7 +211,8 @@
       <workItem from="1603181991891" duration="4117000" />
       <workItem from="1603363465693" duration="1029000" />
       <workItem from="1607669897020" duration="1494000" />
-      <workItem from="1610443549317" duration="2803000" />
+      <workItem from="1610443549317" duration="2911000" />
+      <workItem from="1615888402028" duration="3446000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -510,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610445459808</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat(2021.1.0): update info">
+      <created>1610446622766</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1610446622766</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
