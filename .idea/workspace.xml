@@ -33,10 +33,30 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.1.0): update info">
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.3.0): update angular">
+      <change afterPath="$PROJECT_DIR$/angular/src/assets/images/SlaSol.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/SlaSol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/publication.png" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/images/publication.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +98,17 @@
     <option name="currentCommit" value="1" />
     <option name="onto" value="34d91d23c9beaa8e66945d8526e4067720b6a213" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="kxwn69ax" />
   </component>
@@ -106,7 +137,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541850383703" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular/src/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -121,6 +152,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\komdosh\angular\src\assets\images" />
       <recent name="C:\Users\atabakov\Documents\vhd\Komdosh.github.io\angular\src\assets" />
       <recent name="C:\Users\atabakov\Documents\vhd\Komdosh.github.io\dist" />
       <recent name="C:\Users\atabakov\Documents\vhd\Komdosh.github.io\angular\src\assets\images\portfolio" />
@@ -136,6 +168,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,7 +255,8 @@
       <workItem from="1603363465693" duration="1029000" />
       <workItem from="1607669897020" duration="1494000" />
       <workItem from="1610443549317" duration="2911000" />
-      <workItem from="1615888402028" duration="3446000" />
+      <workItem from="1615888402028" duration="3676000" />
+      <workItem from="1617247873251" duration="10025000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -508,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610446622766</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat(2021.3.0): update angular">
+      <created>1615903344257</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1615903344257</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +600,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update education, fix spelling, add responsibilities" />
     <MESSAGE value="add missing compiled files" />
     <MESSAGE value="compile personal info update" />
     <MESSAGE value="update index.html and bundled dist" />
@@ -574,7 +624,8 @@
     <MESSAGE value="update angular" />
     <MESSAGE value="update index" />
     <MESSAGE value="feat(2021.1.0): update info" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.1.0): update info" />
+    <MESSAGE value="feat(2021.3.0): update angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.3.0): update angular" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

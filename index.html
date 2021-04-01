@@ -1,451 +1,54 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en"><!--[if lt IE 7]>
+<!DOCTYPE html><html lang="en" class="no-js"><!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>
 <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><!--<![endif]-->
-<head>
+<html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><!--<![endif]--><head>
   <base href="/dist/">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Andrey Tabakov — Komdosh</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="Andrey Tabakov" name="description">
-  <meta
-      content="Komdosh, Табаков Андрей, Табаков Андрей Викторович, Tabakov Andrey, ЛЭТИ, СПБГЭТУ, Программист, SlaSol, Android, Developer, Programmer, Engineer, Комдош"
-      name="keywords">
-  <meta content="Komdosh" name="author">
-  <meta content="3fb54bd273efa0d8" name="yandex-verification">
-  <meta content="yHZm0WkJ-p1MnGL220HIEOKvK983wOijBoUfPR90lRU" name="google-site-verification">
+  <meta name="description" content="Andrey Tabakov">
+  <meta name="keywords" content="Komdosh, Табаков Андрей, Табаков Андрей Викторович, Tabakov Andrey, ЛЭТИ, СПБГЭТУ, Программист, SlaSol, Android, Developer, Programmer, Engineer, Комдош">
+  <meta name="author" content="Komdosh">
+  <meta name="yandex-verification" content="3fb54bd273efa0d8">
+  <meta name="google-site-verification" content="yHZm0WkJ-p1MnGL220HIEOKvK983wOijBoUfPR90lRU">
 
   <!-- Facebook and Twitter integration -->
-  <meta content="" property="og:title">
-  <meta content="" property="og:image">
-  <meta content="" property="og:url">
-  <meta content="" property="og:site_name">
-  <meta content="" property="og:description">
-  <meta content="" name="twitter:title">
-  <meta content="" name="twitter:image">
-  <meta content="" name="twitter:url">
-  <meta content="" name="twitter:card">
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:image" content="">
+  <meta name="twitter:url" content="">
+  <meta name="twitter:card" content="">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="shortcut icon" href="assets/images/icons/favicon.png" type="image/x-icon">
 
-  <style type="text/css">@font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDQ.woff) format('woff');
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdo.woff) format('woff');
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7j.woff) format('woff');
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdo.woff) format('woff');
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdo.woff) format('woff');
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJB9cme_xc.woff2) format('woff2');
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJB9cme_xc.woff2) format('woff2');
-      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJB9cme_xc.woff2) format('woff2');
-      unicode-range: U+1F00-1FFF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJB9cme_xc.woff2) format('woff2');
-      unicode-range: U+0370-03FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJB9cme_xc.woff2) format('woff2');
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJB9cme_xc.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: italic;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDJB9cme.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+1F00-1FFF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0370-03FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 300;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu3cOWxw.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2) format('woff2');
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2) format('woff2');
-      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2) format('woff2');
-      unicode-range: U+1F00-1FFF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2) format('woff2');
-      unicode-range: U+0370-03FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2) format('woff2');
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+1F00-1FFF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0370-03FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 600;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+1F00-1FFF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0370-03FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }</style>
+  <style type="text/css">@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDQ.woff) format('woff');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdo.woff) format('woff');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7j.woff) format('woff');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdo.woff) format('woff');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdo.woff) format('woff');}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJB9cme_xc.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJB9cme_xc.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJB9cme_xc.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJB9cme_xc.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJB9cme_xc.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJB9cme_xc.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDJB9cme.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhdu3cOWxy40.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxdu3cOWxy40.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxdu3cOWxy40.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRdu3cOWxy40.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu3cOWxw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhdu3cOWxy40.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxdu3cOWxy40.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxdu3cOWxy40.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRdu3cOWxy40.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhdu3cOWxy40.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxdu3cOWxy40.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxdu3cOWxy40.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBdu3cOWxy40.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
 
   <!-- Animate.css -->
-  <style>@charset "UTF-8";</style>
-  <link href="assets/css/animate.css" media="print" onload="this.media='all'" rel="stylesheet">
-  <noscript>
-    <link href="assets/css/animate.css" rel="stylesheet">
-  </noscript>
+  <style>@charset "UTF-8";</style><link rel="stylesheet" href="assets/css/animate.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/animate.css"></noscript>
   <!-- Icomoon Icon Fonts-->
-  <link href="assets/css/icomoon.css" media="print" onload="this.media='all'" rel="stylesheet">
-  <noscript>
-    <link href="assets/css/icomoon.css" rel="stylesheet">
-  </noscript>
+  <link rel="stylesheet" href="assets/css/icomoon.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/icomoon.css"></noscript>
   <!-- Simple Line Icons -->
-  <link href="assets/css/simple-line-icons.css" media="print" onload="this.media='all'"
-        rel="stylesheet">
-  <noscript>
-    <link href="assets/css/simple-line-icons.css" rel="stylesheet">
-  </noscript>
+  <link rel="stylesheet" href="assets/css/simple-line-icons.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/simple-line-icons.css"></noscript>
   <!-- Owl Carousel -->
-  <link href="assets/css/owl.carousel.min.css" media="print" onload="this.media='all'"
-        rel="stylesheet">
-  <noscript>
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-  </noscript>
-  <link href="assets/css/owl.theme.default.min.css" media="print" onload="this.media='all'"
-        rel="stylesheet">
-  <noscript>
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
-  </noscript>
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/owl.carousel.min.css"></noscript>
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/owl.theme.default.min.css"></noscript>
   <!-- Bootstrap  -->
-  <style>@charset "UTF-8";
-  html {
-      font-family: sans-serif;
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
-  }
+  <style>@charset "UTF-8";html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important;}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}html{font-size:10px;-webkit-tap-highlight-color:transparent;}body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;line-height:1.42857;color:#333333;background-color:#fff;}</style><link rel="stylesheet" href="assets/css/bootstrap.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/bootstrap.css"></noscript>
 
-  body {
-      margin: 0;
-  }
+  <style>body{font-family:"Source Sans Pro", Arial, sans-serif;font-weight:400;font-size:16px;line-height:1.8;color:#7f7f7f;background:#fff;height:100%;position:relative;}</style><link rel="stylesheet" href="assets/css/turquoise.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/turquoise.css"></noscript>
 
-  @media print {
-      *, *:before, *:after {
-          background: transparent !important;
-          color: #000 !important;
-          box-shadow: none !important;
-          text-shadow: none !important;
-      }
-  }
-
-  * {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
-
-  *:before, *:after {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
-
-  html {
-      font-size: 10px;
-      -webkit-tap-highlight-color: transparent;
-  }
-
-  body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      line-height: 1.42857;
-      color: #333333;
-      background-color: #fff;
-  }</style>
-  <link href="assets/css/bootstrap.css" media="print" onload="this.media='all'" rel="stylesheet">
-  <noscript>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-  </noscript>
-
-  <style>body {
-      font-family: "Source Sans Pro", Arial, sans-serif;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.8;
-      color: #7f7f7f;
-      background: #fff;
-      height: 100%;
-      position: relative;
-  }</style>
-  <link href="assets/css/turquoise.css" media="print" onload="this.media='all'" rel="stylesheet">
-  <noscript>
-    <link href="assets/css/turquoise.css" rel="stylesheet">
-  </noscript>
-
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.min.css">
 
   <style>
-      .hide-view {
-          display: none !important;
-      }
+    .hide-view {
+      display: none !important;
+    }
   </style>
 
   <!-- Modernizr JS -->
@@ -455,8 +58,7 @@
   <script src="assets/js/respond.min.js"></script>
   <![endif]-->
 
-  <link href="styles.280e991c5992f8630bc9.css" rel="stylesheet">
-</head>
+<link rel="stylesheet" href="styles.280e991c5992f8630bc9.css"></head>
 <body>
 <app-root></app-root>
 <!-- Font Awesome -->
@@ -472,7 +74,6 @@
 <script src="assets/js/jquery.waypoints.min.js"></script>
 <!-- Owl Carousel -->
 <script src="assets/js/owl.carousel.min.js"></script>
-
 
 <!-- Main JS (Do not remove) -->
 <script src="assets/js/main.js"></script>
@@ -494,10 +95,10 @@
     });
 
     var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () {
-          n.parentNode.insertBefore(s, n);
-        };
+      s = d.createElement("script"),
+      f = function () {
+        n.parentNode.insertBefore(s, n);
+      };
     s.type = "text/javascript";
     s.async = true;
     s.src = "https://mc.yandex.ru/metrika/watch.js";
@@ -510,14 +111,9 @@
   })(document, window, "yandex_metrika_callbacks");
 </script>
 <noscript>
-  <div><img alt="" src="https://mc.yandex.ru/watch/42424409"
-            style="position:absolute; left:-9999px;"/></div>
+  <div><img src="https://mc.yandex.ru/watch/42424409" style="position:absolute; left:-9999px;" alt=""/></div>
 </noscript>
 <!-- /Yandex.Metrika counter -->
-<script defer src="runtime.7425f237727658da0a30.js"></script>
-<script defer nomodule src="polyfills-es5.22c3dc1f68e719c43d96.js"></script>
-<script defer src="polyfills.8f547b441a17cd067a97.js"></script>
-<script defer src="main.6bf4ef6ee760bc0098e6.js"></script>
+<script src="runtime.7425f237727658da0a30.js" defer></script><script src="polyfills-es5.22c3dc1f68e719c43d96.js" nomodule defer></script><script src="polyfills.8f547b441a17cd067a97.js" defer></script><script src="main.9c65fc146c9584786685.js" defer></script>
 
-</body>
-</html>
+</body></html>

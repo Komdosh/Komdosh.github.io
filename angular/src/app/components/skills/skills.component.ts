@@ -6,7 +6,7 @@ import {Translation} from '../../model/Translation';
 
 type Skill = {
   name: string,
-  abouts: Array<{
+  about: Array<{
     text: Translation,
     link?: string,
     buttonTitle?: string,
@@ -20,123 +20,117 @@ type Skill = {
 })
 export class SkillsComponent extends LanguageWrapper {
 
-  sectionName: Translation = {en: 'Skills', ru: 'Навыки'};
+  sectionName: Translation = {en: 'Skills & Endorsements', ru: 'Навыки'};
 
   skills: Array<Skill> = [
     {
       name: 'Android',
-      abouts: [
+      about: [
         {
-          text: {en: 'Develop my own app SlaSol:', ru: 'Разработал собственное приложение SlaSol:'},
-          link: 'https://play.google.com/store/apps/details?id=com.komdosh.slasol',
+          text: {
+            en: 'Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation',
+            ru: 'Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation'
+          },
+          link: 'https://play.google.com/store/apps/dev?id=8354123397424744150',
           buttonTitle: 'Google play',
-        },
-        {
-          text: {
-            en: 'What I used for develop: Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation',
-            ru: 'Что я использовал в моих разработках:Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation'
-          },
-        },
-        {
-          text: {
-            en: 'Android it is kind of hobby for me, I develop small apps just for fun',
-            ru: 'Android для меня выступает в качестве хобби, я разрабатываю небольшие приложения просто ради развлечения'
-          },
-        },
+        }
       ]
     },
     {
       name: 'SQL',
-      abouts: [
+      about: [
         {
-          text: {en: 'I\'m worked with PostgreSQL, MySQL, SQLite. I know what is left, right, inner, outer, anti joins; Indexes; Transactions; ACID', ru: 'Я работаю с PostgreSQL, MySQL, SQLite. Знаю что такое  left, right, inner, outer, anti joins; Индексы; Транзакции; ACID'},
+          text: {
+            en: 'PostgreSQL, MySQL, SQLite. Joins; Indexes; Transactions; ACID',
+            ru: 'PostgreSQL, MySQL, SQLite. Joins; Индексы; Транзакции; ACID'
+          },
         },
       ]
     },
     {
       name: 'Spring',
-      abouts: [
+      about: [
         {
           text: {
-            en: 'Java Spring Framework. Deal with it at work. Also know additional stuff like Spring Security and others',
-            ru: 'Java Spring Framework. Имею с ним дело на работе'
+            en: 'Spring Boot, Cloud, Data, Security, Integration',
+            ru: 'Spring Boot, Cloud, Data, Security, Integration'
           },
         },
       ]
     },
     {
-      name: 'REST',
-      abouts: [
+      name: 'API',
+      about: [
         {
           text: {
-            en: 'I know what is GET, POST, PUT, DELETE, PATCH. I worked with http closely at my work. I wrote servers and clients as well. I wrote API servers',
-            ru: 'Знаю что такое GET, POST, PUT, DELETE, PATCH. На работе близко познакомился с протоколом HTTP. Писал как сервера так и клиенты. Создавал API сервера'
+            en: 'REST, GraphQL, Websocket',
+            ru: 'REST, GraphQL, Websocket'
           },
         },
       ]
     },
     {
       name: 'Git',
-      abouts: [
+      about: [
         {
           text: {
-            en: 'As you can see this site on Github, so I know what is checkout, clone, pull, push, rebase, merge and so on',
-            ru: 'Как вы могли заметить, этот сайт размещён на Github, так что я знаю что такое checkout, clone, pull, rebase, merge, push и т.д.'
+            en: 'Merge, Rebase, Amend, Pull Request...',
+            ru: 'Merge, Rebase, Amend, Pull Request...'
           },
         },
       ]
     },
     {
       name: 'IDE',
-      abouts: [
+      about: [
         {
           text: {
-            en: 'Use Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion and used many others',
-            ru: 'Использую Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion и также пользовался многими другими'
+            en: 'Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion, Rider, Golang...',
+            ru: 'Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion, Rider, Golang...'
           },
         },
       ]
     },
     {
       name: 'OS',
-      abouts: [
+      about: [
         {
           text: {
-            en: 'Use Mac OS X, Windows, Ubuntu Linux, sometimes use another dists like CentOS, Debian and so on',
-            ru: 'Использую Mac OS X, Windows, Ubuntu Linux, пользовался и другими дистрибутивами такими как CentOS, Debian и др.'
+            en: 'Mac OS X, Windows, Linux',
+            ru: 'Mac OS X, Windows, Linux'
           },
         },
       ]
     },
     {
-      name: 'CI',
-      abouts: [
+      name: 'CI/CD',
+      about: [
         {
           text: {
-            en: 'Setup and worked with Jenkins and TeamCity',
-            ru: 'Настраивал и работал с Jenkins и TeamCity'
+            en: 'Teamcity, Jenkins, Bitbucket Pipeline, Github Actions',
+            ru: 'Teamcity, Jenkins, Bitbucket Pipeline, Github Actions'
           },
         },
       ]
     },
     {
       name: 'Agile',
-      abouts: [
+      about: [
         {
           text: {
-            en: 'I know what is Scrum, Kanban, XP, Retro, Planning, ScrumPoker and so on',
-            ru: 'Знаю что такое Scrum, Kanban, XP, Retro, Planning, ScrumPoker и т.д.'
+            en: 'Scrum, Kanban, XP, Retro, Planning, ScrumPoker',
+            ru: 'Scrum, Kanban, XP, Retro, Planning, ScrumPoker'
           },
         },
       ]
     },
     {
       name: 'Other',
-      abouts: [
+      about: [
         {
           text: {
-            en: 'I deployed and worked with: SonarQube, Jetty, Tomcat, Docker, Heroku, Apache POI',
-            ru: 'Конфигурировал и работал с: SonarQube, Jetty, Tomcat, Docker, Heroku, Apache POI'
+            en: 'SonarQube, Jetty, Tomcat, Docker, Heroku, AWS, Intersystems IRIS, Apache POI',
+            ru: 'SonarQube, Jetty, Tomcat, Docker, Heroku, AWS, Intersystems IRIS, Apache POI'
           },
         },
       ]

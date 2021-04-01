@@ -28,8 +28,8 @@ export class ProjectSliderComponent extends LanguageWrapper {
       name: {en: 'Github repositories!', ru: 'Github репозитории!'},
       role: {en: '', ru: ''},
       description: {
-        en: 'Checkout other interesting code',
-        ru: 'Прочие проекты'
+        en: 'Checkout interesting code',
+        ru: 'Проекты'
       },
       link: 'https://github.com/Komdosh?tab=repositories',
       buttonTitle: 'Github',
@@ -48,10 +48,10 @@ export class ProjectSliderComponent extends LanguageWrapper {
       style: {background: '#352f44'},
       name: {en: 'SlaSol \u2014 Android game app', ru: 'SlaSol \u2014 Android приложение'},
       description: {en: 'Try to think in colors', ru: 'Попробуйте мыслить цветами'},
-      role: {en: 'Role: Developer', ru: 'Роль: Разработчик'},
+      role: {en: '', ru: ''},
       link: 'https://play.google.com/store/apps/details?id=com.komdosh.slasol',
       buttonTitle: 'Google Play',
-      imgUrl: 'assets/images/SlaSol.png'
+      imgUrl: 'assets/images/SlaSol.jpg'
     }
   ];
 

@@ -17,7 +17,6 @@ import {PortfolioComponent} from './components/portfolio/portfolio.component';
 import {FormsModule} from '@angular/forms';
 import {ImageViewerModule} from 'ngx-image-viewer';
 
-
 @NgModule({
   declarations: [
     AppComponent,

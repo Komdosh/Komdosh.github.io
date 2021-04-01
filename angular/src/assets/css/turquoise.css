@@ -260,8 +260,6 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
   clear: both;
 }
 
@@ -319,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-  padding: 7em 0;
+  padding: 4em 0 0 0;
 }
 
 @media screen and (max-width: 480px) {
@@ -596,9 +594,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #444;
 }
 
-#fh5co-features {
-  padding: 7em 0;
-}
 
 @media screen and (max-width: 768px) {
   #fh5co-features {
@@ -847,7 +842,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 10px 0;
   color: #7f7f7f;
 }
 
@@ -1146,7 +1141,7 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
   text-align: right;
   position: relative;
-  bottom: -12em;
+  bottom: -7em;
 }
 
 @media screen and (max-width: 768px) {

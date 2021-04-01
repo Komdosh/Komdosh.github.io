@@ -33,16 +33,12 @@ export class ExperienceComponent extends LanguageWrapper {
           'The first project was related to rail traffic. While development, it was necessary to add functionality to the existing system. For this application, a colleague, heuristic algorithm was implemented in Python, which was rewritten in Java, with my help.\n' +
           '\n' +
           'Core technologies:\n' +
-          'Spring\n' +
-          'JSP\n' +
-          'PostgreSQL\n' +
+          'Spring, JSP, PostgreSQL\n' +
           '\n' +
           'The second project is related to the design networks of medium and low voltage. I have been actively involved in the architecture design and development of this application from scratch.\n' +
           '\n' +
           'Core technologies:\n' +
-          'Spring\n' +
-          'AngularJS\n' +
-          'PostgreSQL\n' +
+          'Spring, AngularJS, PostgreSQL\n' +
           '\n' +
           'Practical knowledge was obtained on debugging and testing server applications during the internship.\n' +
           '\n' +
@@ -53,27 +49,23 @@ export class ExperienceComponent extends LanguageWrapper {
           'For reporting and project management used Redmine. Scrum\'s agile development methodology was applied with the interplay of approaches from XP.',
         ru: 'В основные обязанности входила разработка серверной и клиентской части двух приложений.\n' +
           '\n' +
-          'Первый проект был связан с железодорожными сообщениями. В ходе командной разработки, было необходимо добавить функциональность существующей системе. Для данного приложения, коллегой, был реализован эврестический алгоритм на Python, который впоследствие, с моей помощью, был переписан на Java.\n' +
+          'Первый проект был связан с железнодорожными сообщениями. В ходе командной разработки, было необходимо добавить функциональность существующей системе. Для данного приложения, коллегой, был реализован эвристический алгоритм на Python, который впоследствии, с моей помощью, был переписан на Java.\n' +
           '\n' +
           'Основной стек технологий:\n' +
-          'Spring\n' +
-          'JSP\n' +
-          'PostgreSQL\n' +
+          'Spring, JSP, PostgreSQL\n' +
           '\n' +
           'Второй проект был связан с проектированием сетей среднего и низкого напряжений. Я принимал активное участие в проектировании архитектуры и разработке данного приложения с нуля.\n' +
           '\n' +
           'Основной стек технологий:\n' +
-          'Spring\n' +
-          'AngularJS\n' +
-          'PostgreSQL.\n' +
+          'Spring, AngularJS, PostgreSQL.\n' +
           '\n' +
-          'При прихождении стажировки, также были получены практические знания по отладке и тестированию серверных приложений.\n' +
+          'При прохождении стажировки, также были получены практические знания по отладке и тестированию серверных приложений.\n' +
           '\n' +
           'Для контроля версий использовался Git.\n' +
           '\n' +
           'Помимо основных обязанностей, были установлены, сконфигурированны и внедрены системы CI: Jenkins, TeamCity.\n' +
           '\n' +
-          'Для отчётности и планирования проекта использовался Redmine. Применялась методология гибкой разработки Scrum с взаимствованием подходов из XP.'
+          'Для отчётности и планирования проекта использовался Redmine. Применялась методология гибкой разработки Scrum с заимствованием подходов из XP.'
       },
       website: {
         buttonTitle: {en: 'Web site', ru: 'Сайт'},
@@ -126,7 +118,7 @@ export class ExperienceComponent extends LanguageWrapper {
           '\n' +
           'Помимо непосредственной разработки мною было поднято множество различных серверных окружений на Ubuntu, CentOS, Windows Server, MacOS X. В данные окружения, в зависимости от потребностей, входили: Tomcat, SSL, Apache, Nginx, PHP, Node, PostgreSQL, MySQL и др. Настроены сборки проектов в TeamCity. В некоторые приложения внедрён SonarQube.\n' +
           '\n' +
-          'В нескольких проектах выступаю в роли консультанта. Провожу переодические код ревью пулл-реквестов.\n' +
+          'В нескольких проектах выступаю в роли консультанта. Провожу периодические код ревью пулл-реквестов.\n' +
           '\n' +
           'Для планирования и распределения задач используется Atlassian Jira. Используются приёмы из гибких методологий таких как Scrum, Kanban, XP.'
       },
@@ -232,7 +224,7 @@ export class ExperienceComponent extends LanguageWrapper {
         until: {en: 'Until: February 2020', ru: 'По: Февраль 2020'},
       },
       description: {
-        en: 'Remote worker under BIARUM (see below).\n' +
+        en: 'Remote worker under BIARUM.\n' +
           '\n' +
           'Mine main responsibilities is to develop a new features for Benefit Enrollment module.\n' +
           '\n' +

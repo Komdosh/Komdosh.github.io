@@ -13,44 +13,39 @@ export class PersonalInfoComponent extends LanguageWrapper {
 
   sectionName: Translation = {en: 'Personal Info', ru: 'Обо мне'};
 
-  name: Translation = {en: 'Andrey Tabakov', ru: 'Табаков Андрей'};
+  name: Translation = {en: 'Andrey Tabakov', ru: 'Андрей Табаков'};
 
-  position = 'Software Lead Engineer';
+  position = 'Lead Software Engineer';
 
   aboutFirstPart: Translation = {
-    en: 'Born May 12, 1996 in Saint-Petersburg, Russia. My interests is programming, studying, self-development, guitar playing, walking.',
-    ru: 'Родился 12 мая 1996 года в Санкт-Петербурге. Мои интересы: Программирование, обучение, личное развитие, игра на гитаре и прогулки на свежем воздухе.'
+    en: 'I have more than 5 years experience of commercial development. Passed all stages: Intern, Junior, Middle, Senior. Now I\'m a TechLead. ' +
+      'I apply my skills and knowledge of programming in various fields. Faced with banking, medical, government, social, gaming projects. ' +
+      'I am actively continuing my studies, mastering new languages, approaches and technologies. I use TDD, DDD, I design microservice architectures.',
+    ru: 'Занимаюсь коммерческой разработкой более 5 лет. Прошёл путь программиста: Intern, Junior, Middle, Senior, в данный момент TechLead. ' +
+      'Применяю свои навыки и знания программирования в различных сферах. Сталкивался с банковскими, медицинскими, государственными, социальными, игровыми проектами. ' +
+      'Активно продолжаю обучение, осваиваю новые языки, подходы и технологии. Использую TDD, DDD, Проектирую микросервисные архитектуры.'
   };
   aboutSecondPart: Translation = {
-    en: 'I am interested in questions of artificial intelligence.<br/>' +
-      'As a graduation project for bachelor degree, an algorithm to control the perception of an intelligent agent using the method of forward iterative planning was developed.<br/>' +
+    en: '<b>Education:</b> Master of Computer Science. Saint Petersburg State Electrotechnical University "LETI".<br/>' +
+      '<b>Scientific Researches:</b> Multiagent system, Multithreading and Multiprocessor programming. The results were presented at conferences: NSCF (Moscow, 2019), SPTDC (St. Petersburg, 2019), JWGEA (Kusatsu, Japan, 2018)<br/>' +
+      '<b>Interests:</b> Backend, Frontend, Mobile, AI, NLP. "Talk is cheap. Show me the code." ― Linus Torvalds. Take a look on my <a href="https://github.com/Komdosh">Github</a>.' +
       '<br/>' +
-      'I am also interested in issues related to multithreading. <br/>' +
-      'One of my research is related to relaxed concurrent data structure. As a result of this study, an algorithm to optimize the execution time of operations for the Multiqueues structure was developed:<br/>' +
+      'I take part in open-source projects.<br/>' +
       '<br/>' +
-      '<a href="https://github.com/Komdosh/Multiqueues">https://github.com/Komdosh/Multiqueues</a><br/>' +
-      '<br/>' +
-      'The results of this work were personally presented at the JWGEA 2018 conference in Japan.<br/>' +
-      '<br/>' +
-      'In addition to the main activity, I develop various applications as a hobby.<br/>' +
-      'One of the applications for Android published in the Google Play Store:<br/>' +
-      '<br/>' +
-      '<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol">https://play.google.com/store/apps/details?id=com.komdosh.slasol</a><br/>' +
+      'In my spare time I develop Android apps:<br/>' +
+      '<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol">SlaSol - The Logic Game</a><br/>' +
+      '<a href="https://play.google.com/store/apps/details?id=com.komdosh.tapping">Monkey Tapping - Multiplayer Clicker Game</a><br/>' +
       '<br/>' +
       'By nature, I am an early bird, I can start working at 5-6 am and till late in the evening, depending on workload and terms.',
-    ru: 'Интересны вопросы искусственного интеллекта.<br/>' +
-      'В качестве дипломного проекта в бакалавриате был разработан алгоритм управления восприятием интеллектуального агента с использованием метода опережающего итеративного планирования.<br/>' +
+    ru: '<b>Образование:</b> Магистр. Информатика и Вычислительная техника. Санкт-Петербургский Государственный Электротехнический Университет "ЛЭТИ".<br/>' +
+      '<b>Научная деятеьность:</b> Исследования в области многоагентных систем, многопоточное и мультипроцессорное программирование. Результаты были представленны на конференциях: НСКФ(Москва, 2019), SPTDC(Санкт-Петербург, 2019), JWGEA(Кусацу, Япония, 2018)<br/>' +
+      '<b>Интересы:</b> Backend, Frontend, Mobile, AI, NLP. "Разговор ничего не стоит. Покажите мне код" ― Linus Torvalds. Взгляните на мой <a href="https://github.com/Komdosh">Github</a>.' +
       '<br/>' +
-      'Также интересны вопросы связанные с многопоточностью. Одно из моих исследований связано со структурами данных с ослабленной семантикой выполнения операций. В результате данного исследования был разработан алгоритм оптимизации выполнения операций для структуры Multiqueues:<br/>' +
+      'Принимаю участие в жизни Open-source проектов.<br/>' +
       '<br/>' +
-      '<a href="https://github.com/Komdosh/Multiqueues">https://github.com/Komdosh/Multiqueues</a><br/>' +
-      '<br/>' +
-      'Результаты данной работы были лично представлены на конференции JWGEA 2018 в Японии.<br/>' +
-      '<br/>' +
-      'Помимо основной деятельности, разрабатываю различные приложения в качестве хобби.<br/>' +
-      'Одно из приложений для Android опубликованных в Google Play Store:<br/>' +
-      '<br/>' +
-      '<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol">https://play.google.com/store/apps/details?id=com.komdosh.slasol</a><br/>' +
+      'В свободное время разрабатываю Android приложения:<br/>' +
+      '<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol">SlaSol - логическая игра</a><br/>' +
+      '<a href="https://play.google.com/store/apps/details?id=com.komdosh.tapping">Monkey Tapping - игра на скорость</a><br/>' +
       '<br/>' +
       'По природе жаворонок, могу начать работать в 5-6 утра и до позднего вечера, в зависимости от загруженности и сроков.'
   };

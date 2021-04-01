@@ -25,70 +25,69 @@ export class ProgrammingComponent extends LanguageWrapper {
       {
         name: 'Kotlin',
         description: {
-          en: 'I write code for server side and Anrdoid applications',
-          ru: 'Пишу код для серверных и Android приложений на нём'
+          en: 'Strong knowledge. Use in my everyday work',
+          ru: 'Отличные знания. Использую в моей ежедневной работе'
         },
         colorNum: '1',
-        fontSize: 24
+        fontSize: 22
       },
       {
-        name: 'C++',
+        name: 'C/C++',
         description: {
-          en: 'It is required for my scientific researches in multithreading environments',
-          ru: 'Данный язык необходим для моих научных исследований в области многопоточных программ'
+          en: 'Good knowledge. Write programs from time to time',
+          ru: 'Хорошие знания. Пишу программы время от времени'
         },
         colorNum: '2',
-        fontSize: 24
+        fontSize: 22
       },
     ],
     [
       {
         name: 'Java',
         description: {
-          en: 'Main language for now',
-          ru: 'Основной язык используемый в работе'
+          en: 'Strong knowledge. Use in my everyday work',
+          ru: 'Отличные знания. Использую в моей ежедневной работе'
         },
         colorNum: '1',
-        fontSize: 24
-      },
-
-      {
-        name: 'JS/TS',
-        description: {
-          en: 'It is required for Angular and React frontend applications on my work',
-          ru: 'Они применяются мной для написания клиентских приложений на Angular и React'
-        },
-        colorNum: '4',
-        fontSize: 24
-      },
-    ],
-    [
-      {
-        name: 'C',
-        description: {
-          en: 'For some reasons C++ is not always suitable for mine researches, so clean C is used (I rewrote MPICH functions for example)',
-          ru: 'По некоторым причинам C++ не всегда подходит для моих исследований, поэтому используется чистый C (Например для переписываний функций в MPICH)'
-        },
-        colorNum: '3',
         fontSize: 24
       },
       {
         name: 'Python',
         description: {
-          en: 'It is needed for my math evaluations. Sometimes I build a neural networks on it',
-          ru: 'Приходит на помощь, когда мне требуется написать математическую программу, но также пробовал строить нейронные сети'
+          en: 'Good knowledge. Write programs from time to time',
+          ru: 'Хорошие знания. Пишу программы время от времени'
         },
-        colorNum: '5',
+        colorNum: '2',
         fontSize: 18
+      },
+      {
+        name: 'Rust',
+        description: {
+          en: 'Base knowledge. Course study/Research open repositories',
+          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
+        },
+        colorNum: '3',
+        fontSize: 24
+      },
+    ],
+    [
+      {
+        name: 'JS/TS',
+        description: {
+          en: 'Strong knowledge. Use in my everyday work',
+          ru: 'Отличные знания. Использую в моей ежедневной работе'
+        },
+        colorNum: '1',
+        fontSize: 22
       },
       {
         name: 'Go',
         description: {
-          en: 'Handy language for microservices, I use it for my work',
-          ru: 'Полезный язык для написания микросервисов, использую в работе'
+          en: 'Base knowledge. Course study/Research open repositories',
+          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
         },
-        colorNum: '6',
-        fontSize: 18
+        colorNum: '3',
+        fontSize: 24
       },
     ]
   ];
