@@ -40,6 +40,15 @@ export class ProgrammingComponent extends LanguageWrapper {
         colorNum: '2',
         fontSize: 22
       },
+      {
+        name: 'Rust',
+        description: {
+          en: 'Base knowledge. Course study/Research open repositories',
+          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
+        },
+        colorNum: '3',
+        fontSize: 24
+      },
     ],
     [
       {
@@ -59,16 +68,7 @@ export class ProgrammingComponent extends LanguageWrapper {
         },
         colorNum: '2',
         fontSize: 18
-      },
-      {
-        name: 'Rust',
-        description: {
-          en: 'Base knowledge. Course study/Research open repositories',
-          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
-        },
-        colorNum: '3',
-        fontSize: 24
-      },
+      }
     ],
     [
       {
@@ -88,6 +88,15 @@ export class ProgrammingComponent extends LanguageWrapper {
         },
         colorNum: '3',
         fontSize: 24
+      },
+      {
+        name: 'Caché',
+        description: {
+          en: 'Good knowledge. Write programs from time to time',
+          ru: 'Базовые знания. Пишу программы время от времени'
+        },
+        colorNum: '2',
+        fontSize: 20
       },
     ]
   ];

@@ -20,7 +20,7 @@ type Skill = {
 })
 export class SkillsComponent extends LanguageWrapper {
 
-  sectionName: Translation = {en: 'Skills & Endorsements', ru: 'Навыки'};
+  sectionName: Translation = {en: 'Skills', ru: 'Навыки'};
 
   skills: Array<Skill> = [
     {
@@ -28,8 +28,8 @@ export class SkillsComponent extends LanguageWrapper {
       about: [
         {
           text: {
-            en: 'Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation',
-            ru: 'Android SDK, Android Clean Architecture, AndroidX, JitPack, DataBinding, Room, Retrofit, Glide, Picasso, ARCore, Navigation'
+            en: 'Android SDK, Android Architecture Components, AndroidX, JetPack, Retrofit, Glide, ARCore, Navigation...',
+            ru: 'Android SDK, Android Architecture Components, AndroidX, JetPack, Retrofit, Glide, ARCore, Navigation...'
           },
           link: 'https://play.google.com/store/apps/dev?id=8354123397424744150',
           buttonTitle: 'Google play',
@@ -41,8 +41,8 @@ export class SkillsComponent extends LanguageWrapper {
       about: [
         {
           text: {
-            en: 'PostgreSQL, MySQL, SQLite. Joins; Indexes; Transactions; ACID',
-            ru: 'PostgreSQL, MySQL, SQLite. Joins; Индексы; Транзакции; ACID'
+            en: 'PostgreSQL, MySQL, SQLite. Joins, Indexes, Transactions, ACID',
+            ru: 'PostgreSQL, MySQL, SQLite. Joins, Индексы, Транзакции, ACID'
           },
         },
       ]
@@ -54,6 +54,17 @@ export class SkillsComponent extends LanguageWrapper {
           text: {
             en: 'Spring Boot, Cloud, Data, Security, Integration',
             ru: 'Spring Boot, Cloud, Data, Security, Integration'
+          },
+        },
+      ]
+    },
+    {
+      name: 'Frontend',
+      about: [
+        {
+          text: {
+            en: 'Angular, React, Redux, RxJS',
+            ru: 'Angular, React, Redux, RxJS'
           },
         },
       ]
@@ -85,8 +96,8 @@ export class SkillsComponent extends LanguageWrapper {
       about: [
         {
           text: {
-            en: 'Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion, Rider, Golang...',
-            ru: 'Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion, Rider, Golang...'
+            en: 'Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion, Rider, Golang, Pycharm...',
+            ru: 'Intellij IDEA, Android Studio, Visual Studio, Dev-Cpp, Clion, Rider, Golang, Pycharm...'
           },
         },
       ]
@@ -129,8 +140,8 @@ export class SkillsComponent extends LanguageWrapper {
       about: [
         {
           text: {
-            en: 'SonarQube, Jetty, Tomcat, Docker, Heroku, AWS, Intersystems IRIS, Apache POI',
-            ru: 'SonarQube, Jetty, Tomcat, Docker, Heroku, AWS, Intersystems IRIS, Apache POI'
+            en: 'SonarQube, Jetty, Tomcat, Docker, Heroku, AWS, Intersystems IRIS, Maven, Gradle, Apache POI',
+            ru: 'SonarQube, Jetty, Tomcat, Docker, Heroku, AWS, Intersystems IRIS, Maven, Gradle, Apache POI'
           },
         },
       ]

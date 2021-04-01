@@ -11,6 +11,7 @@
         <div class="fh5co-desc">
           <h3>{{skill.name}}</h3>
           <p *ngFor="let about of skill.about">{{about.text[language]}}
+            <br *ngIf="about.link"/>
             <a *ngIf="about.link" [href]="about.link" class="btn btn-primary btn-sm"
                style="margin-top: 1em" target="_blank">{{about.buttonTitle}}</a>
           </p>

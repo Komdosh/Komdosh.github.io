@@ -821,7 +821,7 @@ h1, h2, h3, h4, h5, h6 {
 .person img {
   display: block;
   margin: 0 auto;
-  height: 150px;
+  height: 220px;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
