@@ -33,7 +33,11 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.4.0): update ava, update skills and programming languages" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.4.0): update version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +127,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../../Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/angular/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -144,17 +148,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,7 +225,8 @@
       <workItem from="1607669897020" duration="1494000" />
       <workItem from="1610443549317" duration="2911000" />
       <workItem from="1615888402028" duration="3676000" />
-      <workItem from="1617247873251" duration="11561000" />
+      <workItem from="1617247873251" duration="12384000" />
+      <workItem from="1617336956254" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="remove js-pq from this repo">
       <created>1528530965311</created>
@@ -549,7 +543,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617263033193</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat(2021.4.0): update ava, update skills and programming languages">
+      <created>1617263199841</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1617263199841</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat(2021.4.0): update ava, update skills and programming languages">
+      <created>1617263215981</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1617263215981</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat(2021.4.0): update version">
+      <created>1617263275806</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1617263275806</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +605,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update index.html and bundled dist" />
     <MESSAGE value="new build" />
     <MESSAGE value="update personal info" />
     <MESSAGE value="update bundle" />
@@ -615,7 +629,8 @@
     <MESSAGE value="feat(2021.3.0): update angular" />
     <MESSAGE value="feat(2021.4.0): update content" />
     <MESSAGE value="feat(2021.4.0): update ava, update skills and programming languages" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.4.0): update ava, update skills and programming languages" />
+    <MESSAGE value="feat(2021.4.0): update version" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.4.0): update version" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

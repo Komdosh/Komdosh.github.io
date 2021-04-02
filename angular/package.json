@@ -1,6 +1,6 @@
 {
   "name": "komdosh",
-  "version": "2021.4.1",
+  "version": "2021.4.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

@@ -18,7 +18,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
   position = 'Lead Software Engineer';
 
   aboutFirstPart: Translation = {
-    en: 'I have more than 5 years experience of commercial development. Passed all stages: Intern, Junior, Middle, Senior. Now I\'m a TechLead. ' +
+    en: 'I have more than 5 years experience in commercial development. Passed all stages: Intern, Junior, Middle, Senior. Now I\'m a TechLead. ' +
       'I apply my skills and knowledge of programming in various fields. Faced with banking, medical, government, social, gaming projects. ' +
       'I am actively continuing my studies, mastering new languages, approaches and technologies. I use TDD, DDD, I design microservice architectures.',
     ru: 'Занимаюсь коммерческой разработкой более 5 лет. Прошёл путь программиста: Intern, Junior, Middle, Senior, в данный момент TechLead. ' +
@@ -32,7 +32,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
       '<br/>' +
       'I take part in open-source projects.<br/>' +
       '<br/>' +
-      'In my spare time I develop Android apps:<br/>' +
+      'In my spare time, I develop Android apps:<br/>' +
       '<a href="https://play.google.com/store/apps/details?id=com.komdosh.slasol">SlaSol - The Logic Game</a><br/>' +
       '<a href="https://play.google.com/store/apps/details?id=com.komdosh.tapping">Monkey Tapping - Multiplayer Clicker Game</a><br/>' +
       '<br/>' +

@@ -81,15 +81,6 @@ export class ProgrammingComponent extends LanguageWrapper {
         fontSize: 22
       },
       {
-        name: 'Go',
-        description: {
-          en: 'Base knowledge. Course study/Research open repositories',
-          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
-        },
-        colorNum: '3',
-        fontSize: 24
-      },
-      {
         name: 'Caché',
         description: {
           en: 'Good knowledge. Write programs from time to time',
@@ -97,6 +88,15 @@ export class ProgrammingComponent extends LanguageWrapper {
         },
         colorNum: '2',
         fontSize: 20
+      },
+      {
+        name: 'Go',
+        description: {
+          en: 'Base knowledge. Course study/Research open repositories',
+          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
+        },
+        colorNum: '3',
+        fontSize: 24
       },
     ]
   ];
