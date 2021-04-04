@@ -4,12 +4,12 @@ import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
 
-type ProgrammingLang = {
-  name: string,
-  description: Translation,
-  colorNum: string,
-  fontSize: number
-};
+interface ProgrammingLang {
+  name: string;
+  description: Translation;
+  colorNum: string;
+  fontSize: number;
+}
 
 @Component({
   selector: 'app-programming',
@@ -43,7 +43,7 @@ export class ProgrammingComponent extends LanguageWrapper {
       {
         name: 'Rust',
         description: {
-          en: 'Base knowledge. Course study/Research open repositories',
+          en: 'Base knowledge. Course study/Research open-source repositories',
           ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
         },
         colorNum: '3',
@@ -68,7 +68,16 @@ export class ProgrammingComponent extends LanguageWrapper {
         },
         colorNum: '2',
         fontSize: 18
-      }
+      },
+      {
+        name: 'C#',
+        description: {
+          en: 'Base knowledge. Course study/Research open-source repositories',
+          ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
+        },
+        colorNum: '3',
+        fontSize: 24
+      },
     ],
     [
       {
@@ -92,7 +101,7 @@ export class ProgrammingComponent extends LanguageWrapper {
       {
         name: 'Go',
         description: {
-          en: 'Base knowledge. Course study/Research open repositories',
+          en: 'Base knowledge. Course study/Research open-source repositories',
           ru: 'Базовые знания. Прохожу курсы/Исследую открытые репозитории'
         },
         colorNum: '3',
@@ -107,9 +116,9 @@ export class ProgrammingComponent extends LanguageWrapper {
 
   trackByFn(index: number, item: ProgrammingLang) {
     if (item == null) {
-      return null
+      return null;
     }
-    return item.name
+    return item.name;
   }
 }
 

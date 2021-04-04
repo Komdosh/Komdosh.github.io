@@ -59,11 +59,11 @@ export class ProjectSliderComponent extends LanguageWrapper {
     super(languageBroadcaster);
   }
 
-  trackByFn(index: number, item: ProjectItem){
-    if(item == null){
-      return null
+  trackByFn(index: number, item: ProjectItem) {
+    if (item == null) {
+      return null;
     }
-    return item.name
+    return item.name;
   }
 }
 

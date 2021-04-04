@@ -4,14 +4,14 @@ import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
 
-type Skill = {
-  name: string,
+interface Skill {
+  name: string;
   about: Array<{
     text: Translation,
     link?: string,
     buttonTitle?: string,
-  }>
-};
+  }>;
+}
 
 @Component({
   selector: 'app-skills',
@@ -152,11 +152,11 @@ export class SkillsComponent extends LanguageWrapper {
     super(languageBroadcaster);
   }
 
-  trackByFn(index: number, item: Skill){
-    if(item == null){
-      return null
+  trackByFn(index: number, item: Skill) {
+    if (item == null) {
+      return null;
     }
-    return item.name
+    return item.name;
   }
 }
 

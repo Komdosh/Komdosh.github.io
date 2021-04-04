@@ -4,11 +4,11 @@ import {LanguageBroadcaster} from '../../services/languageHolder';
 import {InfoService} from '../../services/infoService';
 import {Translation} from '../../model/Translation';
 
-type Education = {
-  universityName: Translation,
-  degree: { faculty: Translation, department: Translation },
-  website: { buttonTitle: Translation, link: Translation }
-};
+interface Education {
+  universityName: Translation;
+  degree: { faculty: Translation, department: Translation };
+  website: { buttonTitle: Translation, link: Translation };
+}
 
 @Component({
   selector: 'app-education',
