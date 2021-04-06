@@ -3,11 +3,11 @@
   'use strict';
 
   // iPad and iPod detection
-  var isiPad = function () {
+  const isiPad = function () {
     return (navigator.platform.indexOf("iPad") != -1);
   };
 
-  var isiPhone = function () {
+  const isiPhone = function () {
     return (
       (navigator.platform.indexOf("iPhone") != -1) ||
       (navigator.platform.indexOf("iPod") != -1)
@@ -16,7 +16,7 @@
 
 
   // Carousel Feature Slide
-  var owlCrouselFeatureSlide = function () {
+  const owlCarouselFeatureSlide = function () {
 
     var owl = $('.owl-carousel');
 
@@ -43,6 +43,7 @@
       responsiveClass: true,
       nav: true,
       dots: true,
+      height: 800,
       autoHeight: true,
       smartSpeed: 500,
       autoplay: true,
@@ -58,7 +59,7 @@
 
 
   // animate-box
-  var contentWayPoint = function () {
+  const contentWayPoint = function () {
 
     $('.animate-box').waypoint(function (direction) {
 
@@ -74,7 +75,7 @@
 
 
   // Burger Menu
-  var burgerMenu = function () {
+  const burgerMenu = function () {
 
     $('body').on('click', '.js-fh5co-nav-toggle', function (event) {
 
@@ -92,7 +93,7 @@
 
 
   // Page Nav
-  var clickMenu = function () {
+  const clickMenu = function () {
 
     $('a:not([class="external"])').click(function (event) {
       var section = $(this).data('nav-section'),
@@ -114,7 +115,7 @@
   };
 
   // Reflect scrolling in navigation
-  var navActive = function (section) {
+  const navActive = function (section) {
 
     var $el = $('#navbar > ul');
     $el.find('li').removeClass('active');
@@ -123,9 +124,9 @@
     });
 
   };
-  var navigationSection = function () {
+  const navigationSection = function () {
 
-    var $section = $('div[data-section]');
+    const $section = $('div[data-section]');
 
     $section.waypoint(function (direction) {
       if (direction === 'down') {
@@ -440,7 +441,7 @@
   $(function () {
 
     burgerMenu();
-    owlCrouselFeatureSlide();
+    owlCarouselFeatureSlide();
     clickMenu();
     // windowScroll();
     navigationSection();

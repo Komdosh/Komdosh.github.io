@@ -33,31 +33,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.4.2): update version">
-      <change afterPath="$PROJECT_DIR$/dist/main.667ecab97b9e39dde337.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/polyfills-es5.106a2b065d63bd3fdc47.js" afterDir="false" />
+    <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.4.3): update info, angular, images, styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/education/education.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/personalInfo/personalInfo.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/programming/programming.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/projectSlider/projectSlider.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/skills/skills.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/css/turquoise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/assets/images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/images/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/turquoise.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/turquoise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/slasol_pp.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/slasol_pp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.2f29ffdc4ed2b02f8885.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.22c3dc1f68e719c43d96.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.8f547b441a17cd067a97.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/polyfills.07e7fc9c7c33a7129bce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.7425f237727658da0a30.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/runtime.442d6bd8409cee682c44.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,17 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -259,14 +226,8 @@
       <workItem from="1615888402028" duration="3676000" />
       <workItem from="1617247873251" duration="12384000" />
       <workItem from="1617336956254" duration="1784000" />
-      <workItem from="1617526081106" duration="5557000" />
-    </task>
-    <task id="LOCAL-00001" summary="remove js-pq from this repo">
-      <created>1528530965311</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1528530965311</updated>
+      <workItem from="1617526081106" duration="6195000" />
+      <workItem from="1617690074713" duration="330000" />
     </task>
     <task id="LOCAL-00002" summary="add portfolio component">
       <created>1528535599144</created>
@@ -604,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617337474463</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat(2021.4.3): update info, angular, images, styles">
+      <created>1617531724433</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1617531724433</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +623,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update bundle" />
     <MESSAGE value="update info" />
     <MESSAGE value="update versioning and fix angular migration" />
     <MESSAGE value="update workspace" />
@@ -680,7 +647,8 @@
     <MESSAGE value="feat(2021.4.0): update version" />
     <MESSAGE value="feat(2021.4.1): update version" />
     <MESSAGE value="feat(2021.4.2): update version" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.4.2): update version" />
+    <MESSAGE value="feat(2021.4.3): update info, angular, images, styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(2021.4.3): update info, angular, images, styles" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
