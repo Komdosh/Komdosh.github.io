@@ -40,7 +40,7 @@
       items: 1,
       loop: true,
       margin: 0,
-      responsiveClass: true,
+      responsiveClass: false,
       nav: true,
       dots: true,
       height: 800,

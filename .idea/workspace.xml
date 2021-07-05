@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -34,8 +34,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffb9c08e-380c-4101-b317-ffa2f62f4ff8" name="Default" comment="feat(2021.4.3): update info, angular, images, styles">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/017158307576a9ce1b783091180513fd9b17b08a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0beede8ee71a9d72a48735ada9c5ad19bcca7af5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ec4d8819cbc2e30d4c5c566b60437b653a1573f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26a2fff170ef1b9695718d8c7e333296c1271872" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36901cdc244dac9d0755c25544b483b37548c79a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/379188437347a018f05eeff539a31b8c20829d1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a344f70b54e1910216b90c2452f279f685adb1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55397944cbf62b9cf8cd591b2bea453607357b6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6494d4f232369c90924411171d3e35a1972ca7ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6532977a08ae3791fb98a93e9237308af7e701e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/707a0c96ddce81bcc00e32d2ae8d56b5757f0419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fe2df0b790bb8c08944cbbee864d4c4a85b5ca3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82c53a088d51d09e89157b6dc99cfba7729d8bcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c3885e754cb61b14e68e2ab17c1c37c43a2f3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0dbfd5a13b2575961a373bb860721fc7c1af2c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a27a9dc5c8b1aaddc6a483dcc6bd0aceb3e3c39b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab4f3f00e6b31c474eda3cabe0f3d296e89dc258" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b194993330fd082a7c7f1e0adc48b87f97782704" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b42866154f66891a611b6b889439c1ef92895e16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9c1aaaf65573c7e15b93b6d826729e7711cf242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0245f8f303ce90efee0c22ab2323f8e872d8597" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9084bedff641f6e7874a4cd47cbcb0f89c483d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce5868db5e5fd9deaea2d724eed845095f43ae25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfec0d6431bdb6819f60c68afce172e40954035e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d622b01aae81a7f764bf8d262df97ca22e4ea51e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1b3f240ef8ec5ed9ec024a7b88df5a4ac3f0216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3a3efe076ae542d050e5969da83eefc721e6a3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea042f4d749d4e98481f43bc633c6af242e8a3bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f211cd29ecc7ee52bc9b28d08a75e816506d8b9e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f682455b76c1c0359f4ac24cb86857bff48a8f35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa5ff399621fc9307dc06332fd9dc010fd1ae929" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/experience/experience.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +149,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541850383703" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -227,14 +271,8 @@
       <workItem from="1617247873251" duration="12384000" />
       <workItem from="1617336956254" duration="1784000" />
       <workItem from="1617526081106" duration="6195000" />
-      <workItem from="1617690074713" duration="330000" />
-    </task>
-    <task id="LOCAL-00002" summary="add portfolio component">
-      <created>1528535599144</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1528535599144</updated>
+      <workItem from="1617690074713" duration="1460000" />
+      <workItem from="1625466696277" duration="2131000" />
     </task>
     <task id="LOCAL-00003" summary="update prod build">
       <created>1528535806260</created>
@@ -572,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617531724433</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="feat(2021.4.3): update info, angular, images, styles">
+      <created>1617690588601</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1617690588602</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

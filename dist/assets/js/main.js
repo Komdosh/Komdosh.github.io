@@ -37,20 +37,20 @@
       }, 900);
     });
     owl.owlCarousel({
-      items: 1,
-      loop: true,
-      margin: 0,
-      responsiveClass: true,
-      nav: true,
-      dots: true,
-      height: 800,
-      autoHeight: true,
-      smartSpeed: 500,
-      autoplay: true,
-      autoplayTimeout: 10000,
-      autoplayHoverPause: true,
-      navText: [
-        "<i class='icon-arrow-left2 owl-direction'></i>",
+        items: 1,
+        loop: true,
+        margin: 0,
+        responsiveClass: false,
+        nav: true,
+        dots: true,
+        height: 800,
+        autoHeight: true,
+        smartSpeed: 500,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        autoplayHoverPause: true,
+        navText: [
+            "<i class='icon-arrow-left2 owl-direction'></i>",
         "<i class='icon-arrow-right2 owl-direction'></i>"
       ]
     });
@@ -96,8 +96,8 @@
   const clickMenu = function () {
 
     $('a:not([class="external"])').click(function (event) {
-      var section = $(this).data('nav-section'),
-          navbar = $('#navbar');
+        var section = $(this).data('nav-section'),
+            navbar = $('#navbar');
       $('html, body').animate({
         scrollTop: $('[data-section="' + section + '"]').offset().top
       }, 500);

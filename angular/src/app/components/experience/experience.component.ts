@@ -134,7 +134,7 @@ export class ExperienceComponent extends LanguageWrapper {
       position: {
         name: {en: 'Position: Full-Stack Developer', ru: 'Позиция: Full-Stack Developer'},
         since: {en: 'Since: July 2017', ru: 'C: Июля 2017'},
-        until: {en: 'Until: Now', ru: 'По: настоящее время'},
+        until: {en: 'Until: July 2021', ru: 'По: Июль 2021'},
       },
       description: {
         en: 'I participate in team development of several projects for healthcare and processing data of car traffic.\n' +
@@ -192,7 +192,7 @@ export class ExperienceComponent extends LanguageWrapper {
       position: {
         name: {en: 'Position: Lead Software Engineer', ru: 'Позиция: Lead Software Engineer'},
         since: {en: 'Since: November 2017', ru: 'C: Ноября 2017'},
-        until: {en: 'Until: Now', ru: 'По: настоящее время'},
+        until: {en: 'Until: July 2021', ru: 'По: Июль 2021'},
       },
       description: {
         en: 'Aluna Platform - is a cloud-based system for medical professionals to help them make clinical decisions.\n' +
