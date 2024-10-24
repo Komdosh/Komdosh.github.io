@@ -30,8 +30,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
   aboutSecondPart: Translation = {
     en: '<b>Education:</b> Master of Computer Science. Saint Petersburg State Electrotechnical University "LETI".<br/>' +
       '<b>Scientific Researches:</b> Multiagent system, Multithreading and Multiprocessor programming. The results were presented at conferences: NSCF (Moscow, 2019), SPTDC (St. Petersburg, 2019), JWGEA (Kusatsu, Japan, 2018)<br/>' +
-      '<b>Interests:</b> Backend, Frontend, Mobile, AI, NLP. "Talk is cheap. Show me the code." ― Linus Torvalds. Take a look on my <a' +
-      ' href="https://github.com/Komdosh">Github</a>. ' +
+      '<b>Interests:</b> Backend, Frontend, Mobile, AI, NLP. Take a look on my <a href="https://github.com/Komdosh">Github</a>. ' +
       'I take part in open-source projects.<br/>' +
       '<br/>' +
       'In my spare time, I develop Android apps:<br/>' +
@@ -41,8 +40,7 @@ export class PersonalInfoComponent extends LanguageWrapper {
       'By nature, I am an early bird, I can start working at 5-6 am and till late in the evening, depending on workload and terms.',
     ru: '<b>Образование:</b> Магистр. Информатика и Вычислительная техника. Санкт-Петербургский Государственный Электротехнический Университет "ЛЭТИ".<br/>' +
       '<b>Научная деятеьность:</b> Исследования в области многоагентных систем, многопоточное и мультипроцессорное программирование. Результаты были представленны на конференциях: НСКФ(Москва, 2019), SPTDC(Санкт-Петербург, 2019), JWGEA(Кусацу, Япония, 2018)<br/>' +
-      '<b>Интересы:</b> Backend, Frontend, Mobile, AI, NLP. "Разговор ничего не стоит. Покажите мне код" ― Linus Torvalds. Взгляните на' +
-      ' мой <a href="https://github.com/Komdosh">Github</a>. ' +
+      '<b>Интересы:</b> Backend, Frontend, Mobile, AI, NLP. Взгляните на мой <a href="https://github.com/Komdosh">Github</a>. ' +
       'Принимаю участие в жизни Open-source проектов.<br/>' +
       '<br/>' +
       'В свободное время разрабатываю Android приложения:<br/>' +
